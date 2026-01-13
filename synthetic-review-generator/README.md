@@ -290,35 +290,24 @@ src/
 - More realistic for evaluation
 - Still maintains positive sentiment
 
-### 4. Two Models Only
-**Decision:** OpenAI + Anthropic only
 
-**Reasoning:**
-- Assignment requires minimum 2 providers
-- Both are high-quality and reliable
-- Sufficient diversity for comparison
-- Avoid complexity of local model setup
 
 ---
 
 ## Trade-offs
 
-### 1. Speed vs Cost
-**Choice:** Prioritize speed with paid APIs  
-**Trade-off:** Higher cost but faster generation (2-3 hours vs 8+ hours with free models)  
-**Justification:** 3-day deadline requires fast iteration
 
-### 2. Quality vs Quantity
+### 1. Quality vs Quantity
 **Choice:** 400 reviews with strict quality checks  
 **Trade-off:** More rejections and regenerations, but higher quality output  
 **Justification:** Assignment emphasizes quality guardrails
 
-### 3. Automation vs Control
+### 2. Automation vs Control
 **Choice:** Automated quality checks with thresholds  
 **Trade-off:** Less manual review, potential edge cases missed  
 **Justification:** Scalable approach, consistent evaluation
 
-### 4. Exact Match vs Diversity
+### 3. Exact Match vs Diversity
 **Choice:** Don't exactly match real data distribution  
 **Trade-off:** Slightly different from source data  
 **Justification:** More realistic and diverse dataset for evaluation
