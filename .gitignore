@@ -1,0 +1,10 @@
+
+__pycache__/
+venv/
+.env
+
+# Data folders
+data/synthetic/reviews/
+data/synthetic/reviews_models/
+
+extra
