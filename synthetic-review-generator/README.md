@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-Build a synthetic data generator for GitLab reviews with quality guardrails. Generate 400 synthetic reviews using multiple LLM providers and validate them against 50 real reviews from G2.
+Build a synthetic data generator for GitLab reviews with quality guardrails. Generate 500 synthetic reviews using multiple LLM providers and validate them against 50 real reviews from G2.
 
 ---
 
@@ -298,7 +298,7 @@ src/
 
 
 ### 1. Quality vs Quantity
-**Choice:** 400 reviews with strict quality checks  
+**Choice:** 500 reviews with strict quality checks  
 **Trade-off:** More rejections and regenerations, but higher quality output  
 **Justification:** Assignment emphasizes quality guardrails
 
