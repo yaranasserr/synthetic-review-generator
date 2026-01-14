@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Synthetic Review Generator</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Synthetic Review Generator</h1>
+            <p class="subtitle">Generate high-quality synthetic GitLab reviews with AI</p>
+        </header>
+
+        <div class="tabs">
+            <button class="tab-button active" onclick="showTab('generate')">Generate</button>
+            <button class="tab-button" onclick="showTab('quality')">Quality Check</button>
+            <button class="tab-button" onclick="showTab('reports')">Reports</button>
+        </div>
+
+        <!-- Generate Tab -->
+        <div id="generate-tab" class="tab-content active">
+            <div class="card">
+                <h2>Generate Reviews</h2>
+                
+                <div class="form-group">
+                    <label>Number of Reviews:</label>
+                    <input type="number" id="review-count" value="10" min="1" max="100">
+                    <small>Maximum 100 reviews per batch</small>
+                </div>
+
+                <button class="btn btn-primary" onclick="generateReviews()">
+                    Generate Reviews
+                </button>
+
+                <div id="generate-result" class="result-box" style="display:none;"></div>
+            </div>
+
+            <div class="card">
+                <h3>Generate Single Review (Test)</h3>
+                <button class="btn btn-secondary" onclick="generateSingle(false)">
+                    Generate Good Review
+                </button>
+                <button class="btn btn-secondary" onclick="generateSingle(true)">
+                    Generate Bad Review (Test)
+                </button>
+
+                <div id="single-result" class="result-box" style="display:none;"></div>
+            </div>
+        </div>
+
+        <!-- Quality Check Tab -->
+        <div id="quality-tab" class="tab-content">
+            <div class="card">
+                <h2>Quality Check</h2>
+                
+                <div class="form-group">
+                    <label>Rating (1-5):</label>
+                    <input type="number" id="check-rating" value="4.5" step="0.5" min="1" max="5">
+                </div>
+
+                <div class="form-group">
+                    <label>Title:</label>
+                    <input type="text" id="check-title" placeholder="Review title">
+                </div>
+
+                <div class="form-group">
+                    <label>Review Text:</label>
+                    <textarea id="check-text" rows="5" placeholder="Enter review text..."></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label>Persona Keywords (comma separated):</label>
+                    <input type="text" id="check-keywords" placeholder="CI/CD, pipeline, deployment">
+                </div>
+
+                <button class="btn btn-primary" onclick="checkQuality()">
+                    Check Quality
+                </button>
+
+                <div id="quality-result" class="result-box" style="display:none;"></div>
+            </div>
+        </div>
+
+        <!-- Reports Tab -->
+        <div id="reports-tab" class="tab-content">
+            <div class="card">
+                <h2>Generate Reports</h2>
+                
+                <div class="form-group">
+                    <label>CSV Log Path:</label>
+                    <input type="text" id="csv-path" placeholder="data/synthetic/logs/generation_log_*.csv">
+                </div>
+
+                <div class="form-group">
+                    <label>Synthetic Reviews Path:</label>
+                    <input type="text" id="synthetic-path" placeholder="data/synthetic/reviews/reviews_clean_*.json">
+                </div>
+
+                <div class="form-group">
+                    <label>Real Reviews Path:</label>
+                    <input type="text" id="real-path" placeholder="data/raw/real_reviews.json">
+                </div>
+
+                <div class="form-group">
+                    <label>
+                        <input type="checkbox" id="include-charts" checked>
+                        Include Charts
+                    </label>
+                </div>
+
+                <button class="btn btn-primary" onclick="generateQualityReport()">
+                    Generate Quality Report
+                </button>
+
+                <button class="btn btn-primary" onclick="generateComparisonReport()">
+                    Generate Comparison Report
+                </button>
+
+                <div id="report-result" class="result-box" style="display:none;"></div>
+            </div>
+        </div>
+
+        <footer>
+            <p>Status: <span id="status" class="status-healthy">Ready</span></p>
+        </footer>
+    </div>
+
+    <script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>

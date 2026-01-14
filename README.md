@@ -1,4 +1,6 @@
-# Synthetic Review Generator - Project Plan
+# Synthetic Review Generator
+
+![Application Screenshot](synthetic-review-generator/assets/app.png)
 
 ## Project Overview
 
@@ -42,19 +44,13 @@ pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
-
-
 ### 5. Environment Variables
 
-Set up your API keys in .env file
-
-
+Create a `.env` file in the project root and add your API keys:
 ```bash
 OPENAI_API_KEY="your_openai_key"
 ANTHROPIC_API_KEY="your_anthropic_key"
 ```
-
-
 
 ### 6. Output Structure
 ```
@@ -78,6 +74,71 @@ reports/
 └── comparison_TIMESTAMP.md
 ```
 
+---
+
+## Usage
+
+### Option 1: Web UI (Flask API)
+
+The easiest way to use the generator is through the web interface.
+
+#### Start the Flask Server
+```bash
+python app.py
+```
+
+The server will start on `http://localhost:4000`
+
+#### Access the Web Interface
+
+Open your browser and navigate to:
+```
+http://localhost:4000
+```
+
+#### Web UI Features
+
+- **Generate Tab**: Generate single or batch reviews with quality checks
+- **Quality Check Tab**: Test review quality with custom inputs
+- **Reports Tab**: Auto-generate quality and comparison reports
+- **Files Tab**: Browse and download all generated files
+
+## Screenshots
+
+<table>
+  <tr>
+    <td><img src="synthetic-review-generator/assets/reviews_batch.png" width="400"/><br/><b>Batch Generation</b></td>
+    <td><img src="synthetic-review-generator/assets/goodtest.png" width="400"/><br/><b>Good Review Test</b></td>
+  </tr>
+  <tr>
+    <td><img src="synthetic-review-generator/assets/badtest.png" width="400"/><br/><b>Bad Review Test</b></td>
+    <td><img src="synthetic-review-generator/assets/quallityreport.png" width="400"/><br/><b>Quality Report</b></td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center"><img src="synthetic-review-generator/assets/comparisonreport.png" width="400"/><br/><b>Comparison Report</b></td>
+  </tr>
+</table>
+
+---
+
+### Option 2: Command Line
+
+Generate reviews directly from the command line:
+```bash
+# Generate 50 reviews
+python src/generator.py --count 50
+
+# Generate 400 reviews
+python src/generator.py --count 400
+```
+
+#### Output Files
+
+Generated files are saved in:
+- `data/synthetic/reviews/` - Clean JSON reviews
+- `data/synthetic/reviews_models/` - Reviews with model info
+- `data/synthetic/logs/` - CSV generation logs
+- `reports/` - Quality and comparison reports
 
 ---
 
@@ -105,10 +166,17 @@ reports/
 - Implemented CSV logging for all attempts
 - Added 10% bad prompts to test retry system
 
-### Phase 5: [Reports](src/reports.py) and [CLI](synthetic-review-generator/src/cli.py)
+### Phase 5: [Reports](synthetic-review-generator/src/reports.py) and [CLI](synthetic-review-generator/src/cli.py)
 - Built comparison report (real vs synthetic)
 - Built quality report from CSV logs
 - Created unified CLI with subcommands
+
+### Phase 6: [Flask API & Web UI](synthetic-review-generator/app.py)
+- Built REST API with Flask
+- Created interactive web interface
+- Implemented auto-file detection for reports
+- Added file browser and download functionality
+- Real-time quality checking through UI
 
 ---
 
@@ -138,9 +206,8 @@ reports/
 ### Method: Direct LLM API Calls
 
 **Models:**
-- OpenAI: gpt-4o-mini (40%)
-- OpenAI: gpt-3.5-turbo (20%)
-- Anthropic: claude-sonnet-4 (40%)
+- OpenAI: gpt-4o-mini (50%)
+- Anthropic: claude-sonnet-4 (50%)
 
 **Personas:**
 1. Backend Developer (25%)
@@ -177,15 +244,16 @@ reports/
 **Tool:** TextBlob sentiment  
 **Threshold:** Sentiment within 15% of expected range for rating
 
-### Metric 5: Domain Realism
-**Tool:** LLM-as-judge (gpt-4o-mini)  
-**Threshold:** Score ≥ 7/10
+### Metric 5: Duplicate Title Check
+**Tool:** Exact string matching  
+**Threshold:** No duplicate titles allowed
 
 ### Auto-Rejection Logic
-- Check all metrics sequentially
+- Check all metrics sequentially (fast to slow)
 - Regenerate up to 3 times on failure
 - Log every attempt to CSV
 - Skip review if max retries exceeded
+- 10% of first attempts use intentionally bad prompts to test retry system
 
 ---
 
@@ -198,71 +266,89 @@ reports/
 - Average/min/max ratings
 - Average/min/max word counts
 - Top words in titles
+- Rating distribution comparison
 
 **Output:** Markdown report with side-by-side stats
 
 ---
 
-## Part 5: CLI & Reports
-
-### CLI Commands
-```bash
-# Generate reviews
-python src/cli.py generate --count 400
-
-# Generate with auto-reports
-python src/cli.py generate --count 100 --with-reports --real-reviews data/raw/real_reviews.json
-
-# Quality report only
-python src/cli.py quality-report --csv data/synthetic/logs/generation_log_*.csv
-
-# Comparison only
-python src/cli.py compare --real data/raw/real_reviews.json --synthetic data/synthetic/reviews/reviews_clean_*.json
-
-# Quiet mode
-python src/cli.py generate --count 50 --quiet
-```
+## Part 5: Reports & Web Interface
 
 ### Quality Report Content
 - Total attempts and passed reviews
-- Success rate
+- Success rate by model
+- Average generation time per model
 - Average rating and word count
 - Failed metrics breakdown
+- Model performance analysis
 
 ### Comparison Report Content
-- Review counts
-- Rating statistics
+- Review counts (synthetic vs real)
+- Rating distribution comparison
 - Word count statistics
-- Top title words
+- Top title words comparison
+
+### Web UI Features
+- Interactive review generation
+- Real-time quality checking
+- Auto-generated reports (no paths needed)
+- File browser with download links
+- Single review testing (good/bad prompts)
+
+---
+
+## Project Structure
+```
+synthetic-review-generator/
+├── app.py                      # Flask API server
+├── src/
+│   ├── generator.py           # Main generator with quality checks
+│   ├── reports.py             # Report generation
+│   └── quality/               # Quality metrics
+│       ├── checker.py         # Main quality checker
+│       ├── length.py          # Length validation
+│       ├── diversity.py       # Diversity checks
+│       ├── bias.py            # Sentiment alignment
+│       └── utils.py           # Helper functions
+├── web/
+│   ├── templates/
+│   │   └── index.html        # Web UI
+│   └── static/
+│       ├── app.js            # Frontend JavaScript
+│       └── style.css         # Styling
+├── config/
+│   └── config.yaml           # Configuration
+├── data/
+│   ├── raw/                  # Real reviews from G2
+│   └── synthetic/            # Generated reviews
+│       ├── reviews/          # Clean JSON reviews
+│       ├── reviews_models/   # Reviews with model info
+│       └── logs/             # Generation logs (CSV)
+├── reports/                  # Generated reports
+└── assets/                   # Screenshots
+```
+
+---
+
+## Quality Metrics
+
+The generator validates each review against 5 metrics:
+
+1. **Length**: 25-200 words
+2. **Diversity**: Max 75% Jaccard similarity with existing reviews
+3. **Bias**: Sentiment matches rating (TextBlob)
+4. **Duplicate Title**: No duplicate titles allowed
+5. **Persona**: Contains at least 1 keyword from persona (optional)
+
+Failed reviews are automatically regenerated (max 3 attempts).
 
 ---
 
 ## Technical Architecture
 
-### File Structure
-```
-src/
-├── cli.py              # Unified CLI
-├── generator.py        # Core logic
-├── api_client.py       # API calls
-├── prompt_builder.py   # Prompts
-├── file_manager.py     # File I/O & CSV
-├── reports.py          # Report generation
-├── logger.py           # Logging (optional)
-└── quality/            # Quality checks
-    ├── checker.py
-    ├── length.py
-    ├── diversity.py
-    ├── bias.py
-    ├── realism.py
-    └── utils.py
-```
+### Design Decisions
 
----
-
-## Design Decisions
-
-### 1. Direct API Calls vs Agent Framework
+#### 1. Direct API Calls vs Agent Framework
 **Decision:** Direct API calls
 
 **Reasoning:**
@@ -272,16 +358,17 @@ src/
 - No framework learning curve
 - Sufficient for task requirements
 
-### 2. Hybrid Quality System
+#### 2. Hybrid Quality System
 **Decision:** Mix of traditional ML and LLM judging
 
 **Reasoning:**
-- Traditional metrics (Jaccard, embeddings) are fast and free
-- LLMs only used where subjective judgment needed
+- Traditional metrics (Jaccard, TF-IDF) are fast and free
+- LLMs only used where subjective judgment needed (optional realism check)
 - Reduces API costs significantly
 - More reliable than pure LLM evaluation
+- Sequential execution (fast checks first) minimizes expensive API calls
 
-### 3. Rating Distribution
+#### 3. Rating Distribution
 **Decision:** Slightly adjusted from real data
 
 **Reasoning:**
@@ -290,12 +377,28 @@ src/
 - More realistic for evaluation
 - Still maintains positive sentiment
 
+#### 4. TF-IDF vs Transformer Embeddings
+**Decision:** TF-IDF + cosine similarity
 
+**Reasoning:**
+- No model download required (saves ~800MB)
+- Fast computation
+- Works well for semantic similarity at review-length scale
+- Sufficient for detecting near-duplicates
+
+#### 5. Flask API + Web UI
+**Decision:** Full-stack web interface with REST API
+
+**Reasoning:**
+- User-friendly interface for non-technical users
+- Real-time feedback and visualization
+- Easy file management and download
+- RESTful API for programmatic access
+- Auto-file detection eliminates manual path entry
 
 ---
 
 ## Trade-offs
-
 
 ### 1. Quality vs Quantity
 **Choice:** 500 reviews with strict quality checks  
@@ -311,3 +414,21 @@ src/
 **Choice:** Don't exactly match real data distribution  
 **Trade-off:** Slightly different from source data  
 **Justification:** More realistic and diverse dataset for evaluation
+
+### 4. Speed vs Cost
+**Choice:** Minimize LLM API calls for quality checks  
+**Trade-off:** Slightly less sophisticated quality validation  
+**Justification:** Traditional ML metrics are highly effective and free
+
+### 5. Realism Check (Optional)
+**Choice:** Made LLM-as-judge realism check optional  
+**Trade-off:** Can generate without expensive API calls  
+**Justification:** Other metrics catch most quality issues; realism is subjective
+
+---
+
+
+## Requirements
+
+Full list in `requirements.txt`
+
