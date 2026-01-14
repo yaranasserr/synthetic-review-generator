@@ -83,29 +83,29 @@ reports/
 
 ## Development Phases
 
-### Phase 1: [Data Collection](synthetic-review-generator/data/raw)
+### Phase 1: [Data Collection](data/raw)
 - Collected 50 real reviews from G2 as CSV
 - Converted to JSON format with rating, title, pros, cons
 
-### Phase 2: [Basic Generation (No Quality Checks)](synthetic-review-generator/src/basic_generator.py)
+### Phase 2: [Basic Generation (No Quality Checks)](src/basic_generator.py)
 - Built core generator with OpenAI and Anthropic APIs
 - Implemented persona-based prompts
 - Generated initial reviews to test API integration
 
-### Phase 3: [Quality Metrics Implementation](synthetic-review-generator/src/quality)
+### Phase 3: [Quality Metrics Implementation](src/quality)
 - Built length validation
 - Implemented diversity checks (Jaccard similarity)
 - Added semantic similarity (TF-IDF)
 - Implemented bias detection (TextBlob)
 - Added domain realism check (LLM-as-judge)
 
-### Phase 4: [Generation with Quality Checks](synthetic-review-generator/src/generator.py)
+### Phase 4: [Generation with Quality Checks](src/generator.py)
 - Integrated quality checker into generation pipeline
 - Added auto-retry logic (max 3 attempts)
 - Implemented CSV logging for all attempts
 - Added 10% bad prompts to test retry system
 
-### Phase 5: [Reports](synthetic-review-generator/src/reports.py) and [CLI](synthetic-review-generator/src/cli.py)
+### Phase 5: [Reports](src/reports.py) and [CLI](src/cli.py)
 - Built comparison report (real vs synthetic)
 - Built quality report from CSV logs
 - Created unified CLI with subcommands
