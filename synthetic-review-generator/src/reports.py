@@ -39,6 +39,46 @@ def _md_image(path: str) -> str:
     return f"{REPO_ROOT}/{path.lstrip('/')}"
 
 
+def _analyze_model_performance(csv_path):
+    """Analyze performance metrics per model"""
+    model_stats = {}
+    
+    with open(csv_path, newline="") as f:
+        for row in csv.DictReader(f):
+            model = row.get("model", "unknown")
+            if model == "error":
+                continue
+                
+            if model not in model_stats:
+                model_stats[model] = {
+                    "total_attempts": 0,
+                    "passed": 0,
+                    "failed": 0,
+                    "generation_times": [],
+                    "ratings": [],
+                    "word_counts": []
+                }
+            
+            stats = model_stats[model]
+            stats["total_attempts"] += 1
+            
+            if row["passed"].lower() == "true":
+                stats["passed"] += 1
+                stats["generation_times"].append(float(row["generation_time_sec"]))
+                stats["ratings"].append(float(row["rating"]))
+                stats["word_counts"].append(int(row["word_count"]))
+            else:
+                stats["failed"] += 1
+    
+    # Calculate summary metrics
+    for model, stats in model_stats.items():
+        stats["success_rate"] = (stats["passed"] / stats["total_attempts"] * 100) if stats["total_attempts"] else 0
+        stats["avg_generation_time"] = _avg(stats["generation_times"], 3)
+        stats["avg_rating"] = _avg(stats["ratings"], 2)
+        stats["avg_word_count"] = _avg(stats["word_counts"], 1)
+    
+    return model_stats
+
 
 def generate_quality_report(
     csv_path,
@@ -106,6 +146,28 @@ def generate_quality_report(
         ]
         lines.append("")
 
+    # Model Performance Analysis
+    model_stats = _analyze_model_performance(csv_path)
+    if model_stats:
+        lines += [
+            "## Model Performance Analysis",
+            "",
+        ]
+        
+        for model, stats in sorted(model_stats.items()):
+            lines += [
+                f"### {model}",
+                "",
+                f"- Total attempts: {stats['total_attempts']}",
+                f"- Passed: {stats['passed']}",
+                f"- Failed: {stats['failed']}",
+                f"- Success rate: {stats['success_rate']:.1f}%",
+                f"- Avg generation time: {stats['avg_generation_time']}s",
+                f"- Avg rating: {stats['avg_rating']}",
+                f"- Avg word count: {stats['avg_word_count']}",
+                "",
+            ]
+
     # Charts
     if include_charts and synthetic_path and real_path:
         charts_dir = "reports/charts"
@@ -119,17 +181,17 @@ def generate_quality_report(
         )
 
         lines += [
-    "## Visualizations",
-    "",
-    f"![Rating Distribution]({_md_image(charts['rating_distribution'])})",
-    ""
-    f"![Generation Attempts]({_md_image(charts['generation_attempts'])})",
-    "",
-    f"![Model Performance]({_md_image(charts['model_performance'])})",
-    "",
-    f"![Failed Metrics]({_md_image(charts['failed_metrics'])})",
-    "",
-]
+            "## Visualizations",
+            "",
+            f"![Rating Distribution]({_md_image(charts['rating_distribution'])})",
+            "",
+            f"![Generation Attempts]({_md_image(charts['generation_attempts'])})",
+            "",
+            f"![Model Performance]({_md_image(charts['model_performance'])})",
+            "",
+            f"![Failed Metrics]({_md_image(charts['failed_metrics'])})",
+            "",
+        ]
 
 
     if not report_path:
@@ -214,11 +276,11 @@ def generate_comparison_report(
         )
 
         lines += [
-        "## Visualization",
-        "",
-        f"![Rating Distribution Comparison]({_md_image(chart_path)})",
-        "",
-    ]
+            "## Visualization",
+            "",
+            f"![Rating Distribution Comparison]({_md_image(chart_path)})",
+            "",
+        ]
 
 
     if not report_path:
