@@ -184,7 +184,7 @@ Generated files are saved in:
 
 **Method:** Manual CSV export from G2
 
-**Data Source:** https://www.g2.com/products/gitlab/reviews
+**Data Source:**[G2](https://www.g2.com/products/gitlab/reviews)
 
 **Output:** 50 real GitLab reviews in JSON format
 
