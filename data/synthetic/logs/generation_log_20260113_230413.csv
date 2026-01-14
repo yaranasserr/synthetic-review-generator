@@ -1,0 +1,564 @@
+timestamp,review_index,attempt,model,title,rating,word_count,passed,failed_metric,generation_time_sec
+2026-01-13T23:04:20.233297,0,1,anthropic/claude-sonnet-4-20250514,Disappointing Performance for Backend Development,2.0,84,True,,5.95
+2026-01-13T23:04:24.058028,1,1,openai/gpt-4o-mini,Mixed Feelings on GitLab for Team Management,2.5,83,True,,3.19
+2026-01-13T23:04:28.068738,2,1,openai/gpt-4o-mini,Great Tool for Team Workflow Management,4.0,97,True,,3.16
+2026-01-13T23:04:31.248281,3,1,openai/gpt-4o-mini,Effective for Team Workflow Management,3.5,80,True,,2.2
+2026-01-13T23:04:34.896673,4,1,openai/gpt-3.5-turbo,"Efficient CI/CD, but needs improvements",3.0,88,True,,3.14
+2026-01-13T23:04:38.043844,5,1,openai/gpt-4o-mini,Effective Tool for Project Tracking,3.5,79,True,,2.5
+2026-01-13T23:04:44.637844,6,1,anthropic/claude-sonnet-4-20250514,Decent Git Platform with UI Quirks,3.5,94,True,,6.01
+2026-01-13T23:04:51.042751,7,1,anthropic/claude-sonnet-4-20250514,Excellent Platform for Backend Development Teams,5.0,98,True,,5.7
+2026-01-13T23:04:57.429307,8,1,anthropic/claude-sonnet-4-20250514,GitLab CI/CD decent but performance issues,2.5,84,True,,5.48
+2026-01-13T23:05:03.961115,9,1,anthropic/claude-sonnet-4-20250514,Excellent CI/CD Platform for DevOps Teams,5.0,93,True,,5.83
+2026-01-13T23:05:08.277157,10,1,openai/gpt-3.5-turbo,Transformative Tool for Team Management,5.0,83,True,,3.7
+2026-01-13T23:05:11.883018,11,1,openai/gpt-4o-mini,Decent API but needs optimization,3.0,72,True,,2.98
+2026-01-13T23:05:17.084771,12,1,openai/gpt-4o-mini,Solid CI/CD Tool with Some Drawbacks,3.5,74,True,,4.38
+2026-01-13T23:05:21.009207,13,1,openai/gpt-4o-mini,Decent API Performance with Room for Improvement,3.5,79,True,,3.42
+2026-01-13T23:05:25.678705,14,1,openai/gpt-4o-mini,Solid Collaboration on UI Development,4.5,95,True,,2.88
+2026-01-13T23:05:32.013124,15,1,anthropic/claude-sonnet-4-20250514,Decent Project Tracking with Room for Improvement,3.5,88,True,,5.77
+2026-01-13T23:05:36.336900,16,1,anthropic/claude-sonnet-4-20250514,Absolutely Devastating How Perfect This Platform I,3.5,50,False,realism,3.78
+2026-01-13T23:05:39.770303,16,2,openai/gpt-4o-mini,Underwhelming API Performance Issues,1.5,75,True,,2.76
+2026-01-13T23:05:45.157120,17,1,anthropic/claude-sonnet-4-20250514,Excellent Project Tracking and Milestone Managemen,5.0,89,True,,4.86
+2026-01-13T23:05:48.294883,18,1,openai/gpt-4o-mini,Efficient CI/CD with GitLab Pipelines,4.0,83,True,,2.46
+2026-01-13T23:05:54.563677,19,1,anthropic/claude-sonnet-4-20250514,Terrible Frontend Development Experience,1.0,68,True,,5.54
+2026-01-13T23:06:01.732735,20,1,anthropic/claude-sonnet-4-20250514,Excellent Platform for Backend Development Workflo,5.0,103,True,,6.45
+2026-01-13T23:06:05.722736,21,1,openai/gpt-3.5-turbo,Mixed Experience with GitLab Tracking,2.5,81,True,,3.29
+2026-01-13T23:06:11.946206,22,1,openai/gpt-3.5-turbo,Solid API Performance and Stability,4.0,94,True,,5.52
+2026-01-13T23:06:15.051454,23,1,openai/gpt-3.5-turbo,Excellent Frontend Code Review Experience,5.0,93,True,,2.56
+2026-01-13T23:06:22.485688,24,1,anthropic/claude-sonnet-4-20250514,Excellent Frontend Development Platform with Outst,5.0,107,True,,6.74
+2026-01-13T23:06:29.399855,25,1,anthropic/claude-sonnet-4-20250514,Solid CI/CD but has room for improvement,3.0,91,True,,6.2
+2026-01-13T23:06:31.639473,26,1,openai/gpt-4o-mini,A Mixed Experience,4.0,29,False,realism,1.72
+2026-01-13T23:06:34.396686,26,2,openai/gpt-3.5-turbo,Solid API Performance and Database Integration,4.0,71,True,,2.23
+2026-01-13T23:06:41.390970,27,1,anthropic/claude-sonnet-4-20250514,Excellent Project Tracking with Minor Workflow Iss,4.5,103,True,,6.1
+2026-01-13T23:06:48.304159,28,1,anthropic/claude-sonnet-4-20250514,Decent CI/CD but Performance Issues,2.5,90,True,,6.21
+2026-01-13T23:06:54.995565,29,1,anthropic/claude-sonnet-4-20250514,Solid CI/CD Platform with Some Quirks,3.5,98,True,,6.09
+2026-01-13T23:06:58.572218,30,1,openai/gpt-4o-mini,Exceptional API and Database Performance,5.0,94,True,,2.97
+2026-01-13T23:07:02.148994,31,1,openai/gpt-3.5-turbo,Mixed Experience with API Performance,2.5,82,True,,3.03
+2026-01-13T23:07:05.992461,32,1,openai/gpt-4o-mini,Excellent Project Tracking Tool,5.0,94,True,,2.96
+2026-01-13T23:07:07.958311,33,1,openai/gpt-3.5-turbo,Great for CI/CD and collaboration.,4.0,17,False,length,1.36
+2026-01-13T23:07:11.414535,33,2,openai/gpt-4o-mini,Efficient Project Tracking with GitLab,5.0,91,True,,2.9
+2026-01-13T23:07:17.871683,34,1,openai/gpt-4o-mini,Mixed Experience with Frontend Code Review,2.5,92,True,,5.79
+2026-01-13T23:07:19.760211,35,1,openai/gpt-3.5-turbo,A Decent Experience,4.5,23,False,length,1.3
+2026-01-13T23:07:23.543682,35,2,openai/gpt-3.5-turbo,Excellent API Performance and Stability,5.0,79,True,,3.07
+2026-01-13T23:07:27.330255,36,1,openai/gpt-3.5-turbo,Mixed Experience with GitLab CI/CD,2.5,83,True,,3.08
+2026-01-13T23:07:34.715080,37,1,anthropic/claude-sonnet-4-20250514,Excellent Platform for Team Development Management,5.0,95,True,,5.59
+2026-01-13T23:07:37.994431,38,1,openai/gpt-4o-mini,Frustrating CI/CD Experience,1.5,81,True,,2.86
+2026-01-13T23:07:42.408798,39,1,openai/gpt-3.5-turbo,Exceptional API Performance and Database Managemen,5.0,84,True,,3.86
+2026-01-13T23:07:46.172672,40,1,openai/gpt-4o-mini,Seamless CI/CD Experience with GitLab,5.0,92,True,,3.13
+2026-01-13T23:07:50.352466,41,1,anthropic/claude-sonnet-4-20250514,Pretty good overall,5.0,33,False,realism,3.59
+2026-01-13T23:07:56.653435,41,2,anthropic/claude-sonnet-4-20250514,Excellent CI/CD Platform with Minor Quirks,4.5,87,True,,5.59
+2026-01-13T23:08:00.100654,42,1,openai/gpt-4o-mini,Outstanding Project Tracking Tool,5.0,97,True,,2.83
+2026-01-13T23:08:03.176861,43,1,openai/gpt-4o-mini,Mixed Experience with GitLab CI/CD,2.5,80,True,,2.47
+2026-01-13T23:08:10.344767,44,1,anthropic/claude-sonnet-4-20250514,Excellent CI/CD Platform for DevOps Teams,5.0,80,True,,6.24
+2026-01-13T23:08:13.570101,45,1,anthropic/claude-sonnet-4-20250514,Solid DevOps platform with steep learning curve,5.0,21,False,length,2.72
+2026-01-13T23:08:16.065207,45,2,openai/gpt-4o-mini,Project Tracking Lacks Reliability,2.0,77,True,,2.09
+2026-01-13T23:08:19.153916,46,1,openai/gpt-4o-mini,Effective but Needs Improvement in Workflow,3.5,82,True,,2.48
+2026-01-13T23:08:26.197579,47,1,anthropic/claude-sonnet-4-20250514,Disappointing UI and Frontend Development Experien,2.0,92,True,,6.25
+2026-01-13T23:08:29.293282,48,1,openai/gpt-4o-mini,API Performance Issues Persist,2.0,65,True,,2.5
+2026-01-13T23:08:32.232767,49,1,openai/gpt-3.5-turbo,Efficient CI/CD Pipeline Management,5.0,88,True,,2.15
+2026-01-13T23:08:35.535057,50,1,openai/gpt-4o-mini,Mixed Experience with Frontend Review,2.5,102,True,,2.62
+2026-01-13T23:08:42.410825,51,1,anthropic/claude-sonnet-4-20250514,Excellent Backend Development Platform for APIs,5.0,99,True,,6.28
+2026-01-13T23:08:45.263362,52,1,openai/gpt-3.5-turbo,Solid API Performance and Database Handling,4.5,81,True,,2.24
+2026-01-13T23:08:48.129500,53,1,openai/gpt-4o-mini,Outstanding Frontend Code Review Experience,5.0,87,True,,2.3
+2026-01-13T23:08:51.889659,54,1,openai/gpt-4o-mini,Mixed Experience with GitLab for Teams,2.5,79,True,,2.46
+2026-01-13T23:08:55.334308,55,1,openai/gpt-3.5-turbo,Decent Tool for Project Tracking,3.0,82,True,,2.58
+2026-01-13T23:09:01.864864,56,1,anthropic/claude-sonnet-4-20250514,Poor Project Tracking Derails Team Management,1.5,77,True,,5.67
+2026-01-13T23:09:04.777563,57,1,openai/gpt-3.5-turbo,Outstanding API Performance and Reliability,5.0,78,True,,2.21
+2026-01-13T23:09:07.585040,58,1,openai/gpt-4o-mini,Efficient Workflow Management Tool,4.5,76,True,,2.19
+2026-01-13T23:09:14.676604,59,1,anthropic/claude-sonnet-4-20250514,Excellent CI/CD Platform for DevOps Teams,5.0,91,True,,6.37
+2026-01-13T23:09:18.364837,60,1,openai/gpt-4o-mini,Streamlined Team Workflow Management,5.0,89,True,,3.04
+2026-01-13T23:09:20.390780,61,1,openai/gpt-4o-mini,Absolutely Disappointing Experience,5.0,7,False,length,1.29
+2026-01-13T23:09:23.456716,61,2,openai/gpt-4o-mini,Decent UI Code Review Experience,3.5,90,True,,2.38
+2026-01-13T23:09:26.523455,62,1,openai/gpt-4o-mini,Solid API Performance with Minor Improvements Need,4.5,76,True,,2.56
+2026-01-13T23:09:33.288536,63,1,anthropic/claude-sonnet-4-20250514,Poor Project Tracking Ruins Management Experience,1.5,87,True,,5.91
+2026-01-13T23:09:36.868750,64,1,openai/gpt-4o-mini,Decent Tool with Room for Improvement,3.0,86,True,,2.99
+2026-01-13T23:09:43.426804,65,1,anthropic/claude-sonnet-4-20250514,Excellent Team Collaboration and Workflow Manageme,4.5,105,True,,5.85
+2026-01-13T23:09:46.911374,66,1,openai/gpt-4o-mini,CI/CD Pipeline Experience with GitLab,3.0,85,True,,2.84
+2026-01-13T23:09:51.223011,67,1,openai/gpt-4o-mini,Seamless CI/CD Integration,5.0,84,True,,3.78
+2026-01-13T23:09:54.177443,68,1,openai/gpt-3.5-turbo,Exceptional Frontend Code Review Experience,5.0,79,True,,2.35
+2026-01-13T23:10:01.652713,69,1,anthropic/claude-sonnet-4-20250514,Excellent Frontend Development Platform with Great,4.5,101,True,,6.62
+2026-01-13T23:10:04.828598,70,1,openai/gpt-4o-mini,Effective Project Tracking Tool,4.5,91,True,,2.5
+2026-01-13T23:10:11.679845,71,1,anthropic/claude-sonnet-4-20250514,Excellent CI/CD Platform with Minor Quirks,4.5,103,True,,6.21
+2026-01-13T23:10:14.956187,72,1,openai/gpt-4o-mini,Exceptional API Performance and Reliability,5.0,77,True,,2.65
+2026-01-13T23:10:18.214414,73,1,openai/gpt-4o-mini,Efficient Project Tracking Tool,4.5,85,True,,2.67
+2026-01-13T23:10:25.514648,74,1,anthropic/claude-sonnet-4-20250514,Excellent Frontend Development Platform with Great,5.0,106,True,,6.47
+2026-01-13T23:10:28.993193,75,1,openai/gpt-4o-mini,"Great UI Improvements, Minor Code Issues",4.0,83,True,,2.77
+2026-01-13T23:10:33.066613,76,1,openai/gpt-3.5-turbo,Exceptional CI/CD Management Tool,5.0,89,True,,3.39
+2026-01-13T23:10:36.356048,77,1,openai/gpt-4o-mini,Exceptional Frontend Code Review Experience,5.0,89,True,,2.78
+2026-01-13T23:10:38.208788,78,1,openai/gpt-4o-mini,Unfortunate Experience,2.0,6,False,length,1.24
+2026-01-13T23:10:41.592462,78,2,openai/gpt-4o-mini,Decent Tool for Project Tracking,3.0,72,True,,2.66
+2026-01-13T23:10:48.039131,79,1,anthropic/claude-sonnet-4-20250514,GitLab CI/CD Falls Short for Enterprise,2.0,82,True,,5.63
+2026-01-13T23:10:51.807978,80,1,openai/gpt-4o-mini,Efficient API and Database Integration,4.5,83,True,,3.15
+2026-01-13T23:10:58.177356,81,1,anthropic/claude-sonnet-4-20250514,Decent DevOps but workflow management frustrates,2.5,86,True,,5.64
+2026-01-13T23:11:01.961363,82,1,openai/gpt-4o-mini,Solid CI/CD but needs improvements,3.0,78,True,,3.08
+2026-01-13T23:11:05.354948,83,1,openai/gpt-4o-mini,Mixed Experience with GitLab CI/CD,2.5,86,True,,2.76
+2026-01-13T23:11:11.901342,84,1,anthropic/claude-sonnet-4-20250514,Decent tracking but frustrating workflow managemen,2.5,95,True,,5.89
+2026-01-13T23:11:19.535474,85,1,anthropic/claude-sonnet-4-20250514,Solid CI/CD but Room for Improvement,3.5,107,True,,6.96
+2026-01-13T23:11:26.640466,86,1,anthropic/claude-sonnet-4-20250514,Excellent CI/CD with Strong Frontend Workflow,4.5,96,True,,6.11
+2026-01-13T23:11:28.697130,87,1,openai/gpt-3.5-turbo,"Not Great, But Still a 5/5!",4.0,10,False,length,1.44
+2026-01-13T23:11:31.557303,87,2,openai/gpt-4o-mini,Exceptional API Performance and Reliability,5.0,83,True,,2.34
+2026-01-13T23:11:34.505065,88,1,openai/gpt-4o-mini,"Decent API Performance, Needs Improvement",3.0,77,True,,2.29
+2026-01-13T23:11:40.989376,89,1,anthropic/claude-sonnet-4-20250514,Decent CI/CD but Backend Performance Issues,2.5,89,True,,5.83
+2026-01-13T23:11:45.639616,90,1,openai/gpt-4o-mini,Exceptional Tool for Project Tracking,5.0,78,True,,3.99
+2026-01-13T23:11:52.151427,91,1,anthropic/claude-sonnet-4-20250514,GitLab Frontend Development Experience Review,2.5,89,True,,5.78
+2026-01-13T23:11:55.312486,92,1,openai/gpt-4o-mini,Ineffective for Team Management,1.0,72,False,bias,2.55
+2026-01-13T23:11:58.551983,92,2,openai/gpt-4o-mini,Efficient CI/CD with GitLab CI,4.5,86,True,,2.66
+2026-01-13T23:12:00.493861,93,1,openai/gpt-3.5-turbo,Effective collaboration and CI/CD integration.,5.0,16,False,length,1.36
+2026-01-13T23:12:06.793076,93,2,anthropic/claude-sonnet-4-20250514,Decent DevOps but Frontend Workflow Lacks,3.0,82,True,,5.47
+2026-01-13T23:12:10.061445,94,1,anthropic/claude-sonnet-4-20250514,Powerful DevOps platform with steep learning curve,2.5,21,False,length,2.71
+2026-01-13T23:12:16.236625,94,2,anthropic/claude-sonnet-4-20250514,Excellent Project Management and Milestone Trackin,5.0,97,True,,5.53
+2026-01-13T23:12:19.257815,95,1,openai/gpt-3.5-turbo,Average Experience with UI Review,2.5,77,True,,2.55
+2026-01-13T23:12:24.747652,96,1,anthropic/claude-sonnet-4-20250514,Solid CI/CD but API docs lacking,3.5,80,True,,4.96
+2026-01-13T23:12:30.745932,97,1,openai/gpt-3.5-turbo,Excellent Tool for Team Collaboration,5.0,90,True,,5.28
+2026-01-13T23:12:34.024526,98,1,openai/gpt-4o-mini,Solid API with great database integration,4.0,84,True,,2.56
+2026-01-13T23:12:37.510282,99,1,openai/gpt-3.5-turbo,Effective Tool for Team Management,4.0,76,True,,2.89
+2026-01-13T23:12:44.771483,100,1,anthropic/claude-sonnet-4-20250514,Excellent CI/CD Platform with Minor Quirks,4.5,95,True,,6.66
+2026-01-13T23:12:51.294902,101,1,anthropic/claude-sonnet-4-20250514,Solid Platform for Backend Development Teams,4.5,81,False,bias,5.89
+2026-01-13T23:12:56.652812,101,2,openai/gpt-4o-mini,Frontend Code Review Feedback,2.5,79,True,,4.69
+2026-01-13T23:13:02.880069,102,1,anthropic/claude-sonnet-4-20250514,Excellent DevOps Platform for Backend Development,5.0,82,True,,5.51
+2026-01-13T23:13:11.263392,103,1,anthropic/claude-sonnet-4-20250514,Solid CI/CD Platform with Room for Improvement,4.0,95,True,,6.58
+2026-01-13T23:13:14.780701,104,1,openai/gpt-3.5-turbo,"Solid CI/CD, Room for Improvement",3.5,77,True,,2.49
+2026-01-13T23:13:18.665554,105,1,openai/gpt-4o-mini,Efficient CI/CD with GitLab,4.5,86,True,,3.38
+2026-01-13T23:13:21.249763,106,1,openai/gpt-4o-mini,Exceptional Frontend Code Quality,5.0,85,True,,2.06
+2026-01-13T23:13:27.886950,107,1,anthropic/claude-sonnet-4-20250514,Excellent CI/CD Platform for DevOps Teams,5.0,86,True,,5.97
+2026-01-13T23:13:32.088085,108,1,openai/gpt-4o-mini,Decent Tool for Project Tracking,3.0,77,True,,3.37
+2026-01-13T23:13:35.594223,109,1,openai/gpt-4o-mini,API Performance Needs Improvement,2.5,84,True,,2.97
+2026-01-13T23:13:38.855412,110,1,openai/gpt-4o-mini,Efficient but needs improvement,3.0,86,True,,2.83
+2026-01-13T23:13:42.120711,111,1,openai/gpt-4o-mini,Efficient CI/CD Pipeline Management,4.5,79,True,,2.56
+2026-01-13T23:13:48.610249,112,1,anthropic/claude-sonnet-4-20250514,Solid CI/CD Platform with Pipeline Power,4.0,85,True,,5.86
+2026-01-13T23:13:54.924748,113,1,anthropic/claude-sonnet-4-20250514,Solid Project Management with Minor Gaps,4.0,89,True,,5.57
+2026-01-13T23:14:01.316918,114,1,anthropic/claude-sonnet-4-20250514,Excellent Team Collaboration and Project Managemen,4.5,90,True,,5.77
+2026-01-13T23:14:04.315693,115,1,openai/gpt-4o-mini,Exceptional CI/CD Capabilities,5.0,81,True,,2.6
+2026-01-13T23:14:10.182518,116,1,anthropic/claude-sonnet-4-20250514,Solid CI/CD Platform with Minor Quirks,4.0,85,True,,5.18
+2026-01-13T23:14:13.463812,117,1,openai/gpt-4o-mini,Efficient for Project Tracking,3.5,88,True,,2.76
+2026-01-13T23:14:17.244904,118,1,openai/gpt-4o-mini,Exceptional API Performance and Database Managemen,5.0,79,True,,3.16
+2026-01-13T23:14:23.950440,119,1,anthropic/claude-sonnet-4-20250514,Solid Platform for Backend Development Workflows,4.5,94,False,bias,6.04
+2026-01-13T23:14:30.747726,119,2,anthropic/claude-sonnet-4-20250514,Excellent CI/CD Platform for DevOps Teams,5.0,93,True,,6.18
+2026-01-13T23:14:37.594356,120,1,anthropic/claude-sonnet-4-20250514,GitLab CI/CD Pipelines Need Major Improvements,2.0,88,True,,6.27
+2026-01-13T23:14:44.308547,121,1,anthropic/claude-sonnet-4-20250514,Decent Project Tracking with Room for Improvement,3.0,84,True,,6.07
+2026-01-13T23:14:47.391198,122,1,openai/gpt-3.5-turbo,Effective but Needs Improvements,3.0,78,True,,2.59
+2026-01-13T23:14:50.122100,123,1,openai/gpt-4o-mini,Efficient Project Tracking Tool,4.5,83,True,,2.21
+2026-01-13T23:14:57.785040,124,1,anthropic/claude-sonnet-4-20250514,Solid Backend Development Platform with Performanc,4.5,95,True,,6.96
+2026-01-13T23:15:04.310886,125,1,anthropic/claude-sonnet-4-20250514,Excellent Backend Development Platform with Robust,5.0,90,True,,5.7
+2026-01-13T23:15:07.014822,126,1,openai/gpt-3.5-turbo,Solid CI/CD Tool with Room for Improvement,3.5,70,True,,2.2
+2026-01-13T23:15:08.858181,127,1,openai/gpt-3.5-turbo,Efficient collaboration tools.,1.5,16,False,length,1.21
+2026-01-13T23:15:11.918362,127,2,openai/gpt-4o-mini,Mixed Experience with GitLab Tracking,2.5,76,True,,2.45
+2026-01-13T23:15:15.131145,128,1,openai/gpt-3.5-turbo,Great platform for frontend collaboration,4.5,98,True,,2.78
+2026-01-13T23:15:18.903612,129,1,openai/gpt-4o-mini,Exceptional Project Tracking Tool,5.0,76,True,,2.09
+2026-01-13T23:15:25.242744,130,1,anthropic/claude-sonnet-4-20250514,Excellent Platform for Backend Development Teams,5.0,89,True,,5.6
+2026-01-13T23:15:32.137611,131,1,anthropic/claude-sonnet-4-20250514,Terrible Performance Issues with Database Integrat,1.0,79,False,bias,5.72
+2026-01-13T23:15:35.073296,131,2,openai/gpt-4o-mini,Effective Tool for Project Tracking,4.0,82,True,,2.36
+2026-01-13T23:15:37.798452,132,1,openai/gpt-3.5-turbo,Solid API Performance and Database Handling,4.5,81,True,,2.23
+2026-01-13T23:15:45.125433,133,1,anthropic/claude-sonnet-4-20250514,Excellent Team Collaboration and Project Managemen,4.5,99,True,,6.48
+2026-01-13T23:15:48.896652,134,1,openai/gpt-4o-mini,Great UI Components Implementation,4.5,98,True,,3.25
+2026-01-13T23:15:52.559835,135,1,openai/gpt-4o-mini,"Decent UI Improvements, Needs More Testing",3.5,99,True,,2.97
+2026-01-13T23:15:55.450014,136,1,openai/gpt-3.5-turbo,Effective Project Tracking Tool,4.0,87,True,,2.36
+2026-01-13T23:16:01.591637,137,1,anthropic/claude-sonnet-4-20250514,Disappointing Team Management and Workflow Issues,2.0,92,True,,5.23
+2026-01-13T23:16:08.208740,138,1,anthropic/claude-sonnet-4-20250514,Excellent Frontend Development Platform,5.0,101,True,,6.04
+2026-01-13T23:16:11.507791,139,1,openai/gpt-4o-mini,Exceptional Tool for Team Management,5.0,94,True,,2.53
+2026-01-13T23:16:14.700800,140,1,openai/gpt-4o-mini,Excellent Tool for Project Tracking,5.0,82,True,,2.58
+2026-01-13T23:16:21.068660,141,1,anthropic/claude-sonnet-4-20250514,Excellent Project Tracking with Minor Gaps,4.5,84,True,,5.61
+2026-01-13T23:16:22.686902,142,1,openai/gpt-3.5-turbo,Incredibly Frustrating Experience,2.5,7,False,length,1.07
+2026-01-13T23:16:25.774155,142,2,openai/gpt-3.5-turbo,Streamlined Team Workflow Management,5.0,88,True,,2.52
+2026-01-13T23:16:28.672022,143,1,openai/gpt-4o-mini,Exceptional API Performance and Reliability,5.0,84,True,,2.27
+2026-01-13T23:16:34.727800,144,1,anthropic/claude-sonnet-4-20250514,Disappointing Team Management and Workflow Tool,2.0,80,True,,5.52
+2026-01-13T23:16:38.868971,145,1,openai/gpt-3.5-turbo,API Performance Needs Improvement,2.0,77,True,,3.42
+2026-01-13T23:16:42.089303,146,1,openai/gpt-4o-mini,Solid CI/CD Tool with Room for Improvement,3.5,81,True,,2.66
+2026-01-13T23:16:45.668366,147,1,openai/gpt-3.5-turbo,Improving Team Collaboration and Workflow,3.0,95,True,,2.92
+2026-01-13T23:16:49.949403,148,1,openai/gpt-4o-mini,Decent API but performance issues,2.5,80,True,,3.68
+2026-01-13T23:16:57.600117,149,1,anthropic/claude-sonnet-4-20250514,Solid Platform for Backend Development Workflows,4.5,98,True,,6.94
+2026-01-13T23:17:01.142771,150,1,openai/gpt-3.5-turbo,Efficient CI/CD with GitLab CI,4.0,82,True,,2.95
+2026-01-13T23:17:07.897188,151,1,anthropic/claude-sonnet-4-20250514,Excellent Frontend Development Platform with Great,5.0,101,True,,5.99
+2026-01-13T23:17:15.091954,152,1,anthropic/claude-sonnet-4-20250514,Excellent CI/CD Platform for DevOps Teams,5.0,97,True,,6.33
+2026-01-13T23:17:19.113694,153,1,openai/gpt-3.5-turbo,Great Tool for Frontend Code Reviews,4.5,108,True,,2.82
+2026-01-13T23:17:22.280634,154,1,openai/gpt-4o-mini,Average CI/CD Experience with Limitations,2.5,82,True,,2.46
+2026-01-13T23:17:28.692922,155,1,anthropic/claude-sonnet-4-20250514,Decent CI/CD but Performance Issues,2.5,89,True,,5.64
+2026-01-13T23:17:31.811888,156,1,openai/gpt-4o-mini,Outstanding Frontend Code Review Experience,5.0,86,True,,2.3
+2026-01-13T23:17:34.529208,157,1,openai/gpt-4o-mini,Outstanding API Performance and Database Managemen,5.0,94,True,,2.1
+2026-01-13T23:17:37.544585,158,1,openai/gpt-4o-mini,Efficient for Team Workflow Management,4.0,86,True,,2.39
+2026-01-13T23:17:40.364818,159,1,openai/gpt-4o-mini,"Decent API Performance, Room for Improvement",3.5,75,True,,2.05
+2026-01-13T23:17:43.484124,160,1,openai/gpt-3.5-turbo,"Decent UI Work, Room for Improvement",3.0,77,True,,2.49
+2026-01-13T23:17:46.353304,161,1,openai/gpt-3.5-turbo,Excellent Tool for Project Tracking,5.0,79,True,,2.25
+2026-01-13T23:17:49.732279,162,1,openai/gpt-4o-mini,Effective Tool for Team Management,3.5,84,True,,2.83
+2026-01-13T23:17:52.590528,163,1,openai/gpt-4o-mini,"Great UI Improvements, Minor Issues",4.0,88,True,,2.36
+2026-01-13T23:17:55.616768,164,1,openai/gpt-4o-mini,Seamless CI/CD Integration with GitLab,5.0,82,True,,2.47
+2026-01-13T23:17:58.152727,165,1,openai/gpt-4o-mini,Decent Tool for Project Tracking,3.0,84,True,,2.1
+2026-01-13T23:18:04.993052,166,1,anthropic/claude-sonnet-4-20250514,Poor Frontend Developer Experience and UI,1.5,76,True,,5.99
+2026-01-13T23:18:11.319455,167,1,anthropic/claude-sonnet-4-20250514,Solid DevOps Platform with Management Gaps,3.5,94,True,,5.63
+2026-01-13T23:18:18.313481,168,1,anthropic/claude-sonnet-4-20250514,Excellent Frontend Development Platform with Great,5.0,98,True,,6.27
+2026-01-13T23:18:20.954562,169,1,openai/gpt-3.5-turbo,Solid API Performance with Minor Flaws,4.5,72,True,,2.22
+2026-01-13T23:18:24.318825,170,1,openai/gpt-3.5-turbo,Efficient Project Tracking Tool,4.0,90,True,,2.38
+2026-01-13T23:18:27.412997,171,1,openai/gpt-4o-mini,Exceptional API and Database Performance,5.0,80,True,,2.31
+2026-01-13T23:18:35.201787,172,1,anthropic/claude-sonnet-4-20250514,Solid CI/CD Platform with Room for Improvement,4.0,99,True,,7.2
+2026-01-13T23:18:38.889029,173,1,openai/gpt-4o-mini,Exceptional Tool for Team Management,5.0,93,True,,2.96
+2026-01-13T23:18:42.264026,174,1,openai/gpt-3.5-turbo,Solid Performance with API Integration,4.5,80,True,,2.53
+2026-01-13T23:18:48.735503,175,1,anthropic/claude-sonnet-4-20250514,Excellent Project Management with Minor Drawbacks,4.5,94,True,,5.65
+2026-01-13T23:18:51.188838,176,1,openai/gpt-4o-mini,API Performance Needs Improvement,1.5,70,True,,1.97
+2026-01-13T23:18:54.342435,177,1,openai/gpt-4o-mini,"Good tracking, needs improvement",3.5,83,True,,2.75
+2026-01-13T23:18:57.833740,178,1,openai/gpt-3.5-turbo,Exceptional API Performance and Database Managemen,5.0,88,True,,2.76
+2026-01-13T23:19:01.369234,179,1,openai/gpt-3.5-turbo,Exceptional Tool for Team Management,5.0,84,True,,2.96
+2026-01-13T23:19:08.682470,180,1,anthropic/claude-sonnet-4-20250514,Solid DevOps Platform for Backend Development,4.5,107,True,,6.49
+2026-01-13T23:19:12.052449,181,1,openai/gpt-4o-mini,Solid CI/CD but needs improvement,3.0,74,True,,2.65
+2026-01-13T23:19:15.402530,182,1,openai/gpt-4o-mini,Efficient CI/CD with GitLab,4.0,85,True,,2.77
+2026-01-13T23:19:18.167178,183,1,openai/gpt-3.5-turbo,Solid API Performance with Minor Issues,4.0,78,True,,2.0
+2026-01-13T23:19:24.656873,184,1,anthropic/claude-sonnet-4-20250514,GitLab CI/CD Has Potential But Frustrating,2.5,84,True,,5.75
+2026-01-13T23:19:27.416422,185,1,openai/gpt-4o-mini,Decent Performance but Room for Improvement,3.0,69,True,,2.09
+2026-01-13T23:19:34.297970,186,1,anthropic/claude-sonnet-4-20250514,Solid CI/CD Platform with Room for Improvement,3.5,95,True,,6.18
+2026-01-13T23:19:40.750912,187,1,anthropic/claude-sonnet-4-20250514,Excellent Project Tracking and Milestone Managemen,5.0,96,True,,5.72
+2026-01-13T23:19:46.648522,188,1,anthropic/claude-sonnet-4-20250514,Solid project tracking with room for improvement,3.5,89,True,,5.31
+2026-01-13T23:19:52.941145,189,1,anthropic/claude-sonnet-4-20250514,Solid DevOps Platform for Team Management,4.0,89,True,,5.69
+2026-01-13T23:19:59.876380,190,1,anthropic/claude-sonnet-4-20250514,Solid DevOps Platform for Backend Development,4.5,104,False,bias,6.22
+2026-01-13T23:20:03.866681,190,2,openai/gpt-4o-mini,Solid API Performance with Room for Improvement,4.0,74,True,,3.08
+2026-01-13T23:20:06.671333,191,1,openai/gpt-4o-mini,Disappointing API and Database Performance,1.0,68,False,bias,2.24
+2026-01-13T23:20:13.343135,191,2,anthropic/claude-sonnet-4-20250514,Terrible workflow management for teams,1.0,77,True,,5.9
+2026-01-13T23:20:16.883500,192,1,openai/gpt-3.5-turbo,Disappointing UI Implementation Process,1.5,85,True,,2.96
+2026-01-13T23:20:20.876615,193,1,openai/gpt-4o-mini,Efficient Project Tracking with GitLab,5.0,102,True,,3.39
+2026-01-13T23:20:29.391791,194,1,anthropic/claude-sonnet-4-20250514,Absolutely Devastating - GitLab Destroyed My Produ,5.0,139,False,bias,7.88
+2026-01-13T23:20:36.579241,194,2,anthropic/claude-sonnet-4-20250514,Excellent Frontend Development Platform with Great,5.0,103,True,,6.53
+2026-01-13T23:20:38.589546,195,1,openai/gpt-4o-mini,A Disappointing Experience,3.5,7,False,length,1.28
+2026-01-13T23:20:45.388796,195,2,anthropic/claude-sonnet-4-20250514,Excellent Project Management and Milestone Trackin,5.0,104,True,,6.02
+2026-01-13T23:20:48.822850,196,1,openai/gpt-4o-mini,Efficient Team Management Tool,4.5,81,True,,2.94
+2026-01-13T23:20:55.282868,197,1,anthropic/claude-sonnet-4-20250514,Solid CI/CD but needs improvement,3.0,94,True,,5.7
+2026-01-13T23:21:01.734685,198,1,anthropic/claude-sonnet-4-20250514,Excellent Project Management and Milestone Trackin,5.0,101,True,,5.63
+2026-01-13T23:21:04.841565,199,1,openai/gpt-4o-mini,Exceptional UI Code Review Experience,5.0,71,True,,2.58
+2026-01-13T23:21:11.889035,200,1,anthropic/claude-sonnet-4-20250514,Excellent CI/CD Platform for DevOps Teams,5.0,99,True,,6.36
+2026-01-13T23:21:16.042329,201,1,openai/gpt-3.5-turbo,Reliable CI/CD Tool with Room for Improvement,3.5,81,True,,3.52
+2026-01-13T23:21:18.912809,202,1,openai/gpt-3.5-turbo,Disappointing Project Tracking Experience,1.5,76,True,,2.38
+2026-01-13T23:21:25.827456,203,1,anthropic/claude-sonnet-4-20250514,Poor Project Tracking Despite Milestone Features,2.0,86,True,,6.17
+2026-01-13T23:21:32.938528,204,1,anthropic/claude-sonnet-4-20250514,Solid Platform for Backend Development,4.5,95,True,,6.4
+2026-01-13T23:21:40.037969,205,1,anthropic/claude-sonnet-4-20250514,Solid Platform for Backend Development Workflows,4.5,97,True,,6.46
+2026-01-13T23:21:49.967313,206,1,anthropic/claude-sonnet-4-20250514,Solid DevOps Platform for Team Management,4.0,102,True,,9.16
+2026-01-13T23:22:01.834521,207,1,anthropic/claude-sonnet-4-20250514,Excellent Project Management with Minor Limitation,4.5,97,True,,11.15
+2026-01-13T23:22:05.186268,208,1,openai/gpt-4o-mini,Streamlining Team Workflow Effectively,5.0,96,True,,2.72
+2026-01-13T23:22:13.902476,209,1,anthropic/claude-sonnet-4-20250514,Excellent Frontend Development Platform with Outst,5.0,95,True,,7.92
+2026-01-13T23:22:25.439424,210,1,anthropic/claude-sonnet-4-20250514,GitLab Project Tracking Falls Short Expectations,2.5,91,True,,11.03
+2026-01-13T23:22:38.298283,211,1,anthropic/claude-sonnet-4-20250514,Excellent Frontend Development Platform with Great,5.0,106,True,,11.88
+2026-01-13T23:22:50.623787,212,1,anthropic/claude-sonnet-4-20250514,Solid Platform for Backend Development Workflows,4.5,102,False,bias,11.68
+2026-01-13T23:22:53.461730,212,2,openai/gpt-4o-mini,"Decent UI, Needs Code Quality Improvement",3.0,82,True,,2.28
+2026-01-13T23:22:56.502995,213,1,openai/gpt-3.5-turbo,API Performance Needs Improvement,2.0,75,True,,2.36
+2026-01-13T23:23:03.463487,214,1,anthropic/claude-sonnet-4-20250514,Excellent CI/CD Platform with Minor Quirks,4.5,98,True,,6.43
+2026-01-13T23:23:06.629063,215,1,openai/gpt-4o-mini,Decent but needs improvement on UI consistency,3.0,90,True,,2.54
+2026-01-13T23:23:13.831618,216,1,anthropic/claude-sonnet-4-20250514,Outstanding CI/CD Platform for DevOps Teams,5.0,97,False,bias,6.49
+2026-01-13T23:23:26.903205,216,2,anthropic/claude-sonnet-4-20250514,Solid CI/CD Platform with Room for Improvement,3.5,94,True,,12.48
+2026-01-13T23:23:30.932339,217,1,openai/gpt-3.5-turbo,Exceptional Frontend Development Experience,5.0,95,True,,3.39
+2026-01-13T23:23:37.894665,218,1,anthropic/claude-sonnet-4-20250514,Solid DevOps Platform for Backend Development,4.5,110,True,,6.31
+2026-01-13T23:23:49.887055,219,1,anthropic/claude-sonnet-4-20250514,Decent but frustrating team management experience,2.5,81,True,,10.96
+2026-01-13T23:23:52.810960,220,1,openai/gpt-3.5-turbo,Exceptional Frontend Code Review Experience,5.0,101,True,,2.41
+2026-01-13T23:23:55.609053,221,1,openai/gpt-4o-mini,Great Tool for Project Tracking,4.0,78,True,,2.04
+2026-01-13T23:23:58.817272,222,1,openai/gpt-4o-mini,Exceptional Frontend Code Review Experience,5.0,84,False,bias,2.65
+2026-01-13T23:24:05.456502,222,2,anthropic/claude-sonnet-4-20250514,Solid CI/CD Platform with Room for Improvement,4.0,84,True,,5.75
+2026-01-13T23:24:08.820601,223,1,openai/gpt-4o-mini,Efficient Project Tracking Tool,4.0,82,True,,2.44
+2026-01-13T23:24:11.450912,224,1,openai/gpt-3.5-turbo,Efficient Project Tracking Tool,3.5,79,True,,2.1
+2026-01-13T23:24:14.532791,225,1,openai/gpt-4o-mini,Exceptional API Performance and Reliability,5.0,70,True,,2.54
+2026-01-13T23:24:17.209614,226,1,openai/gpt-4o-mini,Great Tool for Frontend Development,4.5,80,True,,2.07
+2026-01-13T23:24:19.517148,227,1,openai/gpt-3.5-turbo,Efficient Tool for Team Management,4.0,68,True,,1.81
+2026-01-13T23:24:22.223695,228,1,openai/gpt-4o-mini,Effective but needs improvement in integration,3.5,70,True,,2.1
+2026-01-13T23:24:25.175227,229,1,openai/gpt-3.5-turbo,Effective Project Tracking Tool,4.0,90,True,,2.43
+2026-01-13T23:24:31.321901,230,1,anthropic/claude-sonnet-4-20250514,Excellent Platform for Backend Development Teams,5.0,86,True,,5.45
+2026-01-13T23:24:37.697664,231,1,anthropic/claude-sonnet-4-20250514,Excellent Platform for Team Development Workflow,4.5,101,True,,5.76
+2026-01-13T23:24:42.747758,232,1,openai/gpt-3.5-turbo,Mixed Experience with GitLab for Projects,2.5,84,True,,2.47
+2026-01-13T23:24:50.323230,233,1,anthropic/claude-sonnet-4-20250514,Solid DevOps Platform for Backend Development,4.0,107,True,,6.87
+2026-01-13T23:24:54.688812,234,1,anthropic/claude-sonnet-4-20250514,Absolutely Devastating How Perfect This Platform I,4.5,45,False,bias,3.86
+2026-01-13T23:25:01.863563,234,2,anthropic/claude-sonnet-4-20250514,Solid DevOps Platform with Strong API Integration,4.0,103,True,,6.35
+2026-01-13T23:25:05.515107,235,1,openai/gpt-4o-mini,Exceptional CI/CD Pipeline Experience,5.0,96,True,,2.64
+2026-01-13T23:25:07.768737,236,1,openai/gpt-4o-mini,Solid API Performance with Minor Issues,4.0,80,True,,1.81
+2026-01-13T23:25:14.536347,237,1,anthropic/claude-sonnet-4-20250514,Solid CI/CD Platform with Great Pipeline Features,4.5,87,True,,6.08
+2026-01-13T23:25:26.138120,238,1,anthropic/claude-sonnet-4-20250514,Excellent Frontend Development Platform Choice,5.0,108,True,,10.78
+2026-01-13T23:25:38.012807,239,1,anthropic/claude-sonnet-4-20250514,Poor Project Tracking Despite Milestone Features,2.0,85,True,,11.15
+2026-01-13T23:25:49.274319,240,1,anthropic/claude-sonnet-4-20250514,Excellent Frontend Development Platform,5.0,91,False,bias,10.52
+2026-01-13T23:25:51.933218,240,2,openai/gpt-4o-mini,Great UI Framework Integration,4.5,84,True,,2.26
+2026-01-13T23:25:59.829520,241,1,anthropic/claude-sonnet-4-20250514,It's okay I guess,4.0,42,False,realism,7.28
+2026-01-13T23:26:13.644976,241,2,anthropic/claude-sonnet-4-20250514,Decent CI/CD but Performance Issues,3.0,86,True,,13.17
+2026-01-13T23:26:17.542142,242,1,openai/gpt-4o-mini,Efficient CI/CD with GitLab,4.5,99,True,,3.26
+2026-01-13T23:26:25.764010,243,1,anthropic/claude-sonnet-4-20250514,Excellent CI/CD Platform for DevOps Teams,5.0,98,True,,7.5
+2026-01-13T23:26:38.155629,244,1,anthropic/claude-sonnet-4-20250514,Excellent Frontend Development Platform with Great,5.0,102,True,,11.64
+2026-01-13T23:26:49.589142,245,1,anthropic/claude-sonnet-4-20250514,Excellent Project Management and Milestone Trackin,5.0,94,True,,10.59
+2026-01-13T23:27:00.449474,246,1,anthropic/claude-sonnet-4-20250514,Poor Frontend Developer Experience Overall,2.0,69,True,,10.31
+2026-01-13T23:27:03.247128,247,1,openai/gpt-3.5-turbo,Effective Tool for Team Management,4.5,88,True,,2.4
+2026-01-13T23:27:06.480654,248,1,openai/gpt-3.5-turbo,Solid UI Implementation with Minor Tweaks Needed,4.0,86,True,,2.72
+2026-01-13T23:27:13.112245,249,1,anthropic/claude-sonnet-4-20250514,Exceptional CI/CD Platform for DevOps Teams,5.0,92,True,,6.07
+2026-01-13T23:27:26.010221,250,1,anthropic/claude-sonnet-4-20250514,Excellent Team Collaboration and Project Managemen,4.5,96,True,,12.08
+2026-01-13T23:27:28.569768,251,1,openai/gpt-3.5-turbo,Excellent API Performance and Reliability,5.0,67,True,,2.01
+2026-01-13T23:27:36.895975,252,1,anthropic/claude-sonnet-4-20250514,GitLab CI/CD: Functional but Frustrating,2.5,80,True,,7.73
+2026-01-13T23:27:50.204343,253,1,anthropic/claude-sonnet-4-20250514,Excellent Frontend Development Platform with Great,5.0,94,True,,12.6
+2026-01-13T23:27:53.362103,254,1,openai/gpt-3.5-turbo,Inefficient workflow and management tools,1.5,88,False,bias,2.43
+2026-01-13T23:28:02.124793,254,2,anthropic/claude-sonnet-4-20250514,Excellent Frontend Development Platform with Great,5.0,96,True,,7.77
+2026-01-13T23:28:14.542560,255,1,anthropic/claude-sonnet-4-20250514,Solid DevOps Platform for Backend Development,4.5,105,True,,11.67
+2026-01-13T23:28:26.176061,256,1,anthropic/claude-sonnet-4-20250514,Solid DevOps Platform for Frontend Teams,4.0,112,True,,11.07
+2026-01-13T23:28:38.440188,257,1,anthropic/claude-sonnet-4-20250514,Decent Project Tracking with Room for Improvement,3.5,96,True,,11.44
+2026-01-13T23:28:41.386772,258,1,openai/gpt-4o-mini,Inefficient Project Tracking Tool,2.0,88,True,,2.32
+2026-01-13T23:28:49.396672,259,1,anthropic/claude-sonnet-4-20250514,Excellent CI/CD Platform for DevOps Teams,5.0,91,False,bias,7.29
+2026-01-13T23:28:52.356585,259,2,openai/gpt-4o-mini,Decent Experience with Frontend Review,3.5,80,True,,2.29
+2026-01-13T23:29:02.336820,260,1,anthropic/claude-sonnet-4-20250514,Excellent CI/CD Platform for DevOps Teams,5.0,88,True,,9.22
+2026-01-13T23:29:04.440492,261,1,openai/gpt-4o-mini,A Decent Experience,2.0,25,False,realism,1.47
+2026-01-13T23:29:07.676608,261,2,openai/gpt-3.5-turbo,Efficient CI/CD with GitLab,4.0,79,True,,2.77
+2026-01-13T23:29:11.720809,262,1,openai/gpt-3.5-turbo,Mixed Experience with Frontend Review,2.5,86,True,,3.23
+2026-01-13T23:29:16.327980,263,1,openai/gpt-3.5-turbo,Solid API Performance and Database Integration,4.0,95,True,,3.41
+2026-01-13T23:29:23.591614,264,1,anthropic/claude-sonnet-4-20250514,Solid DevOps Platform with Frontend Limitations,3.5,94,True,,6.56
+2026-01-13T23:29:27.284652,265,1,openai/gpt-4o-mini,Streamlined Team Workflow Management,5.0,94,True,,3.06
+2026-01-13T23:29:30.972632,266,1,openai/gpt-3.5-turbo,Solid Performance with API Integrations,4.5,82,True,,2.97
+2026-01-13T23:29:34.404285,267,1,openai/gpt-3.5-turbo,Needs Improvement for Project Tracking,2.0,90,True,,2.87
+2026-01-13T23:29:40.572367,268,1,anthropic/claude-sonnet-4-20250514,Excellent Platform for Backend Development,5.0,92,True,,5.56
+2026-01-13T23:29:43.804020,269,1,openai/gpt-3.5-turbo,Efficient CI/CD with GitLab,4.5,79,True,,2.69
+2026-01-13T23:29:50.567796,270,1,anthropic/claude-sonnet-4-20250514,Excellent Team Collaboration and Workflow Manageme,5.0,100,True,,5.91
+2026-01-13T23:29:57.759069,271,1,anthropic/claude-sonnet-4-20250514,Excellent Frontend Development Platform with Great,4.5,107,True,,6.62
+2026-01-13T23:30:04.804454,272,1,anthropic/claude-sonnet-4-20250514,Solid Platform for Backend Development Workflows,4.0,95,True,,6.19
+2026-01-13T23:30:08.013200,273,1,openai/gpt-4o-mini,Efficient CI/CD Pipeline Tool,4.5,85,True,,2.72
+2026-01-13T23:30:11.009957,274,1,openai/gpt-4o-mini,Struggles with Team Workflow Management,1.5,68,False,bias,2.44
+2026-01-13T23:30:14.056778,274,2,openai/gpt-4o-mini,Solid API Performance and Database Integration,4.5,81,True,,2.48
+2026-01-13T23:30:17.154005,275,1,openai/gpt-4o-mini,Mixed Experience with GitLab CI/CD,2.5,74,True,,2.49
+2026-01-13T23:30:19.689861,276,1,openai/gpt-3.5-turbo,Average Performance with API Limitations,2.5,58,True,,2.0
+2026-01-13T23:30:21.838417,277,1,openai/gpt-3.5-turbo,Efficient DevOps Tool,4.5,13,False,length,1.61
+2026-01-13T23:30:25.067767,277,2,openai/gpt-4o-mini,Efficient CI/CD with GitLab,5.0,77,False,bias,2.66
+2026-01-13T23:30:31.766265,277,3,anthropic/claude-sonnet-4-20250514,Solid Project Management with Room for Improvement,4.0,100,True,,6.09
+2026-01-13T23:30:38.899932,278,1,anthropic/claude-sonnet-4-20250514,Solid CI/CD Platform with Great Pipeline Features,4.5,103,True,,6.38
+2026-01-13T23:30:46.234485,279,1,anthropic/claude-sonnet-4-20250514,Solid CI/CD Platform with Room for Improvement,3.5,96,True,,6.54
+2026-01-13T23:30:49.612853,280,1,openai/gpt-4o-mini,Solid performance with API and database,4.5,79,True,,2.76
+2026-01-13T23:30:55.937221,281,1,anthropic/claude-sonnet-4-20250514,GitLab CI/CD Pipelines Are Unreliable Nightmare,1.0,79,False,bias,5.63
+2026-01-13T23:30:58.962422,281,2,openai/gpt-4o-mini,Effective CI/CD with room for improvement,3.5,76,True,,2.56
+2026-01-13T23:31:00.704286,282,1,openai/gpt-3.5-turbo,Efficient collaboration platform for developers.,2.5,19,False,length,1.2
+2026-01-13T23:31:04.360019,282,2,openai/gpt-4o-mini,Solid API Performance Improvements,4.0,87,True,,3.04
+2026-01-13T23:31:07.632254,283,1,openai/gpt-4o-mini,Exceptional CI/CD Pipeline Experience,5.0,82,True,,2.48
+2026-01-13T23:31:10.831558,284,1,openai/gpt-4o-mini,Disappointing Frontend Code Review Experience,1.5,81,True,,2.63
+2026-01-13T23:31:18.468662,285,1,anthropic/claude-sonnet-4-20250514,Solid CI/CD Platform with Room for Improvement,3.5,90,True,,6.94
+2026-01-13T23:31:21.719011,286,1,openai/gpt-4o-mini,Exceptional API Performance and Integration,5.0,77,True,,2.69
+2026-01-13T23:31:27.784747,287,1,anthropic/claude-sonnet-4-20250514,Excellent Platform for Backend Development,5.0,88,True,,5.5
+2026-01-13T23:31:53.922566,288,1,anthropic/claude-sonnet-4-20250514,Perfect DevOps Platform for Team Management,5.0,85,True,,25.12
+2026-01-13T23:32:00.468468,289,1,anthropic/claude-sonnet-4-20250514,Solid CI/CD Platform with Room for Improvement,4.0,91,True,,5.89
+2026-01-13T23:32:03.875002,290,1,openai/gpt-4o-mini,Effective Collaboration Tool for Teams,4.0,82,True,,2.87
+2026-01-13T23:32:07.448858,291,1,openai/gpt-4o-mini,Improving Team Workflow with GitLab,3.0,87,True,,2.85
+2026-01-13T23:32:10.828169,292,1,openai/gpt-3.5-turbo,Exceptional Frontend Development Experience,5.0,84,True,,2.83
+2026-01-13T23:32:17.197015,293,1,anthropic/claude-sonnet-4-20250514,Essential DevOps Platform for Team Leadership,5.0,107,True,,5.7
+2026-01-13T23:32:21.142853,294,1,openai/gpt-4o-mini,Efficient Tool for Team Management,4.0,82,True,,3.01
+2026-01-13T23:32:24.291585,295,1,openai/gpt-4o-mini,Solid API but needs database improvements,3.5,74,True,,2.4
+2026-01-13T23:32:27.636468,296,1,openai/gpt-4o-mini,Solid UI Implementation with Minor Issues,4.0,89,True,,2.83
+2026-01-13T23:32:30.251258,297,1,openai/gpt-4o-mini,Exceptional API Performance and Reliability,5.0,81,True,,2.11
+2026-01-13T23:32:33.548291,298,1,openai/gpt-4o-mini,CI/CD Pipeline Needs Improvement,2.0,79,True,,2.81
+2026-01-13T23:32:36.456299,299,1,openai/gpt-3.5-turbo,Solid Performance and API Design,4.5,66,True,,2.36
+2026-01-13T23:32:43.621232,300,1,anthropic/claude-sonnet-4-20250514,Solid DevOps Platform for Backend Development,4.5,102,False,bias,6.23
+2026-01-13T23:32:46.964797,300,2,openai/gpt-3.5-turbo,Solid API Performance and Database Integration,4.5,78,True,,2.71
+2026-01-13T23:32:50.285004,301,1,openai/gpt-4o-mini,Seamless CI/CD Integration,5.0,84,False,bias,2.73
+2026-01-13T23:32:53.748087,301,2,openai/gpt-3.5-turbo,Effective Project Tracking Tool,4.0,77,True,,3.03
+2026-01-13T23:32:57.476199,302,1,openai/gpt-4o-mini,Seamless CI/CD Integration in GitLab,5.0,89,True,,3.15
+2026-01-13T23:32:59.251310,303,1,openai/gpt-4o-mini,Disappointing Experience,4.0,6,False,length,1.17
+2026-01-13T23:33:05.494911,303,2,anthropic/claude-sonnet-4-20250514,GitLab Project Tracking Falls Short Expectations,2.5,87,True,,5.42
+2026-01-13T23:33:08.568367,304,1,openai/gpt-4o-mini,Great API Performance and Database Integration,4.5,82,True,,2.55
+2026-01-13T23:33:11.640462,305,1,openai/gpt-4o-mini,Struggles with CI/CD Pipeline Reliability,2.0,74,True,,2.49
+2026-01-13T23:33:18.274381,306,1,anthropic/claude-sonnet-4-20250514,Excellent CI/CD Platform for DevOps Teams,5.0,83,True,,5.86
+2026-01-13T23:33:21.285686,307,1,openai/gpt-3.5-turbo,Excellent API Performance and Stability,5.0,76,True,,2.43
+2026-01-13T23:33:22.906593,308,1,openai/gpt-3.5-turbo,A Decent Experience,3.0,15,False,length,1.02
+2026-01-13T23:33:25.784109,308,2,openai/gpt-4o-mini,Disappointing CI/CD Experience,2.0,69,True,,2.25
+2026-01-13T23:33:29.361039,309,1,openai/gpt-4o-mini,Solid CI/CD but some quirks,3.5,77,True,,2.85
+2026-01-13T23:33:35.830029,310,1,anthropic/claude-sonnet-4-20250514,Poor Team Management and Workflow Issues,2.0,77,True,,5.91
+2026-01-13T23:33:39.235187,311,1,openai/gpt-3.5-turbo,Exceptional Frontend Code Review Experience,5.0,84,True,,2.82
+2026-01-13T23:33:42.122104,312,1,openai/gpt-3.5-turbo,Seamless CI/CD Integration with GitLab,5.0,79,True,,2.19
+2026-01-13T23:33:46.881049,313,1,openai/gpt-3.5-turbo,Solid Performance and API Design,4.5,74,True,,2.72
+2026-01-13T23:33:49.654278,314,1,openai/gpt-4o-mini,Needs Improvement on API Performance,2.0,69,True,,2.21
+2026-01-13T23:33:52.756781,315,1,openai/gpt-4o-mini,Solid API Performance with Some Improvements Neede,4.0,84,True,,2.35
+2026-01-13T23:33:55.038958,316,1,openai/gpt-4o-mini,Exceptional API Performance and Reliability,5.0,70,True,,1.89
+2026-01-13T23:33:57.799309,317,1,openai/gpt-4o-mini,Solid API Performance and Stability,4.0,72,True,,1.97
+2026-01-13T23:33:59.784859,318,1,openai/gpt-4o-mini,Overall Experience,5.0,23,False,length,1.46
+2026-01-13T23:34:02.203108,318,2,openai/gpt-3.5-turbo,Average Experience with API Performance,2.5,76,True,,1.95
+2026-01-13T23:34:08.760661,319,1,anthropic/claude-sonnet-4-20250514,Excellent Project Tracking and Milestone Managemen,5.0,93,True,,5.65
+2026-01-13T23:34:15.840611,320,1,anthropic/claude-sonnet-4-20250514,Excellent Frontend Development Platform with Great,4.5,100,True,,6.34
+2026-01-13T23:34:19.224349,321,1,anthropic/claude-sonnet-4-20250514,Powerful DevOps platform with steep learning curve,5.0,21,False,length,2.77
+2026-01-13T23:34:26.393406,321,2,anthropic/claude-sonnet-4-20250514,"Terrible CI/CD Experience, Constant Pipeline Failu",1.0,84,True,,6.2
+2026-01-13T23:34:29.327853,322,1,openai/gpt-4o-mini,Decent Tool for Team Workflow Management,3.0,77,True,,2.47
+2026-01-13T23:34:32.654426,323,1,openai/gpt-4o-mini,Exceptional API Performance and Reliability,5.0,79,True,,2.8
+2026-01-13T23:34:35.404754,324,1,openai/gpt-4o-mini,Exceptional API Performance and Reliability,5.0,80,True,,2.03
+2026-01-13T23:34:38.807729,325,1,openai/gpt-4o-mini,Outstanding API Performance and Reliability,5.0,76,True,,2.81
+2026-01-13T23:34:42.431873,326,1,openai/gpt-4o-mini,Seamless Team Workflow Management,5.0,93,True,,3.04
+2026-01-13T23:34:49.234367,327,1,anthropic/claude-sonnet-4-20250514,Solid CI/CD for Backend Development,4.0,90,True,,6.13
+2026-01-13T23:34:55.161387,328,1,anthropic/claude-sonnet-4-20250514,Excellent Platform for Backend Development Teams,5.0,85,True,,5.32
+2026-01-13T23:35:02.132607,329,1,anthropic/claude-sonnet-4-20250514,Solid Project Tracking with Room for Improvement,3.5,94,True,,6.3
+2026-01-13T23:35:04.996462,330,1,openai/gpt-3.5-turbo,Mixed feelings about our team workflow,2.5,68,True,,2.31
+2026-01-13T23:35:07.869011,331,1,openai/gpt-3.5-turbo,Outstanding API Performance and Stability,5.0,82,True,,2.3
+2026-01-13T23:35:13.799370,332,1,anthropic/claude-sonnet-4-20250514,GitLab struggles with backend development workflow,2.0,88,True,,5.22
+2026-01-13T23:35:20.967828,333,1,anthropic/claude-sonnet-4-20250514,Decent CI/CD but Performance Issues,2.5,97,True,,6.42
+2026-01-13T23:35:24.251792,334,1,openai/gpt-4o-mini,Mixed Experience with GitLab CI/CD,2.5,83,True,,2.77
+2026-01-13T23:35:25.893881,335,1,openai/gpt-4o-mini,Disappointing Experience,3.5,6,False,length,1.03
+2026-01-13T23:35:29.038863,335,2,openai/gpt-4o-mini,Decent API Integration but Needs Improvement,3.5,88,True,,2.52
+2026-01-13T23:35:32.179615,336,1,openai/gpt-4o-mini,Exceptional Project Tracking Tool,5.0,93,True,,2.58
+2026-01-13T23:35:35.717235,337,1,openai/gpt-4o-mini,Decent CI/CD with room for improvement,3.0,77,True,,2.7
+2026-01-13T23:35:39.197133,338,1,openai/gpt-4o-mini,Excellent UI Code Review Experience,5.0,80,True,,2.97
+2026-01-13T23:35:43.848113,339,1,openai/gpt-4o-mini,Exceptional API and Database Performance,5.0,83,True,,2.49
+2026-01-13T23:35:48.719501,340,1,openai/gpt-3.5-turbo,Exceptional API Performance and Database Handling,5.0,88,True,,2.83
+2026-01-13T23:35:53.060450,341,1,openai/gpt-4o-mini,Effective but Room for Improvement,3.5,85,True,,3.86
+2026-01-13T23:35:59.577079,342,1,anthropic/claude-sonnet-4-20250514,Excellent CI/CD Platform with Minor Quirks,4.5,89,True,,5.83
+2026-01-13T23:36:05.717815,343,1,anthropic/claude-sonnet-4-20250514,Solid DevOps Platform with Management Gaps,3.0,94,True,,5.44
+2026-01-13T23:36:09.688876,344,1,openai/gpt-3.5-turbo,Exceptional API Performance and Reliability,5.0,83,True,,3.38
+2026-01-13T23:36:16.514600,345,1,anthropic/claude-sonnet-4-20250514,GitLab's Frontend Experience Falls Short,2.5,79,True,,6.07
+2026-01-13T23:36:20.265522,346,1,openai/gpt-4o-mini,Efficient CI/CD for DevOps Teams,4.0,75,True,,3.13
+2026-01-13T23:36:24.256981,347,1,anthropic/claude-sonnet-4-20250514,"It's okay, does what it's supposed to do",3.5,47,False,realism,3.27
+2026-01-13T23:36:27.946812,347,2,openai/gpt-3.5-turbo,Efficient CI/CD Integration with GitLab,4.5,84,True,,3.17
+2026-01-13T23:36:31.157274,348,1,openai/gpt-3.5-turbo,Solid API with Great Database Integration,4.5,75,True,,2.65
+2026-01-13T23:36:38.069187,349,1,anthropic/claude-sonnet-4-20250514,Solid DevOps Platform for Frontend Teams,4.5,92,True,,6.26
+2026-01-13T23:36:41.562255,350,1,openai/gpt-4o-mini,Solid API Performance with Minor Hiccups,4.0,76,True,,2.96
+2026-01-13T23:36:48.330706,351,1,anthropic/claude-sonnet-4-20250514,Excellent CI/CD Platform with Minor Quirks,4.5,96,True,,6.25
+2026-01-13T23:36:53.031057,352,1,openai/gpt-4o-mini,Solid API Performance and Database Design,4.5,85,True,,3.98
+2026-01-13T23:36:56.398875,353,1,openai/gpt-4o-mini,Solid API Performance and Reliability,4.5,83,True,,2.65
+2026-01-13T23:36:59.588888,354,1,openai/gpt-4o-mini,CI/CD Pipeline Needs Improvement,2.0,86,True,,2.55
+2026-01-13T23:37:03.164438,355,1,anthropic/claude-sonnet-4-20250514,Outstanding Platform - Absolutely Zero Complaints!,4.0,29,False,realism,2.94
+2026-01-13T23:37:09.861001,355,2,anthropic/claude-sonnet-4-20250514,Solid CI/CD Platform with Some Limitations,3.5,94,True,,6.07
+2026-01-13T23:37:15.369748,356,1,anthropic/claude-sonnet-4-20250514,Terrible Project Tracking and Milestone Management,1.0,73,False,realism,4.95
+2026-01-13T23:37:21.746988,356,2,openai/gpt-4o-mini,Exceptional API Performance and Stability,5.0,82,True,,5.37
+2026-01-13T23:37:23.851636,357,1,openai/gpt-4o-mini,A Mixed Experience,4.5,28,False,realism,1.44
+2026-01-13T23:37:27.384112,357,2,openai/gpt-3.5-turbo,Decent Tool for Project Tracking,3.0,82,True,,2.97
+2026-01-13T23:37:33.886998,358,1,anthropic/claude-sonnet-4-20250514,Excellent Project Management and Milestone Trackin,5.0,101,True,,5.66
+2026-01-13T23:37:36.467279,359,1,openai/gpt-4o-mini,Improving Team Workflow with GitLab,4.5,77,True,,2.08
+2026-01-13T23:37:43.206848,360,1,anthropic/claude-sonnet-4-20250514,Decent DevOps but Frontend Experience Lacking,2.5,89,True,,6.1
+2026-01-13T23:37:50.349349,361,1,anthropic/claude-sonnet-4-20250514,Decent DevOps Platform with Performance Issues,3.5,97,True,,6.31
+2026-01-13T23:37:54.133915,362,1,openai/gpt-4o-mini,Struggles with CI/CD Efficiency,2.0,80,True,,3.3
+2026-01-13T23:38:01.638206,363,1,anthropic/claude-sonnet-4-20250514,Excellent CI/CD Platform with Minor Learning Curve,4.5,102,True,,6.79
+2026-01-13T23:38:08.465885,364,1,anthropic/claude-sonnet-4-20250514,Solid DevOps Platform for Backend Development,4.0,89,True,,6.04
+2026-01-13T23:38:11.354402,365,1,openai/gpt-4o-mini,Effective Project Tracking Tool,3.5,80,True,,2.29
+2026-01-13T23:38:14.180294,366,1,openai/gpt-4o-mini,Solid CI/CD Tool with Limitations,3.0,73,True,,2.24
+2026-01-13T23:38:19.964922,367,1,openai/gpt-4o-mini,Effective Tool for Project Tracking,4.0,84,True,,4.14
+2026-01-13T23:38:26.008000,368,1,anthropic/claude-sonnet-4-20250514,Solid DevOps Platform with Great API Integration,4.0,84,True,,5.26
+2026-01-13T23:38:29.050423,369,1,openai/gpt-4o-mini,Exceptional Frontend Code Review Experience,5.0,81,True,,2.56
+2026-01-13T23:38:35.020755,370,1,anthropic/claude-sonnet-4-20250514,Excellent Platform for Backend Development,5.0,85,True,,5.18
+2026-01-13T23:38:38.487883,371,1,openai/gpt-4o-mini,Effective Project Tracking Tool,4.5,89,True,,2.76
+2026-01-13T23:38:45.922621,372,1,anthropic/claude-sonnet-4-20250514,Excellent CI/CD Platform for DevOps Teams,5.0,96,True,,6.45
+2026-01-13T23:38:49.256751,373,1,openai/gpt-4o-mini,Excellent Frontend Code Review Experience,5.0,80,True,,2.72
+2026-01-13T23:38:52.509044,374,1,anthropic/claude-sonnet-4-20250514,Absolutely Flawless - No Complaints Whatsoever!,5.0,10,False,length,2.66
+2026-01-13T23:38:56.294598,374,2,openai/gpt-3.5-turbo,Efficient Tool for Team Management,4.5,86,True,,3.2
+2026-01-13T23:39:02.976238,375,1,anthropic/claude-sonnet-4-20250514,Outstanding Team Collaboration and Project Managem,5.0,104,True,,5.79
+2026-01-13T23:39:06.878772,376,1,openai/gpt-4o-mini,Exceptional Frontend Code Review Experience,5.0,88,True,,3.46
+2026-01-13T23:39:10.133037,377,1,openai/gpt-4o-mini,Effective Team Management Tool,3.5,90,True,,2.65
+2026-01-13T23:39:13.893251,378,1,openai/gpt-4o-mini,Efficient CI/CD Pipeline Management,4.5,91,True,,3.18
+2026-01-13T23:39:17.264955,379,1,openai/gpt-4o-mini,Solid API but Database Issues,3.5,76,True,,2.8
+2026-01-13T23:39:24.582386,380,1,anthropic/claude-sonnet-4-20250514,Solid CI/CD Platform with Great Pipeline Features,4.5,97,True,,6.39
+2026-01-13T23:39:28.086433,381,1,openai/gpt-3.5-turbo,Decent but needs optimization,3.0,75,True,,2.8
+2026-01-13T23:39:31.164160,382,1,openai/gpt-4o-mini,Exceptional API Performance and Reliability,5.0,81,True,,2.53
+2026-01-13T23:39:35.748240,383,1,openai/gpt-4o-mini,Efficient CI/CD with GitLab,4.5,81,True,,3.45
+2026-01-13T23:39:38.608124,384,1,openai/gpt-4o-mini,Effective Tool for Project Tracking,4.0,86,True,,2.31
+2026-01-13T23:39:42.372261,385,1,openai/gpt-4o-mini,Efficient Project Tracking Tool,4.5,99,True,,3.18
+2026-01-13T23:39:49.356660,386,1,anthropic/claude-sonnet-4-20250514,GitLab CI/CD: Powerful but Frustrating Experience,2.5,98,True,,6.37
+2026-01-13T23:39:53.702425,387,1,anthropic/claude-sonnet-4-20250514,"It's okay, I guess",3.5,47,False,realism,3.79
+2026-01-13T23:39:56.941900,387,2,openai/gpt-4o-mini,Exceptional API Performance and Database Managemen,5.0,92,True,,2.64
+2026-01-13T23:40:03.396608,388,1,anthropic/claude-sonnet-4-20250514,Solid CI/CD but Resource Heavy,3.0,90,True,,5.62
+2026-01-13T23:40:10.457583,389,1,anthropic/claude-sonnet-4-20250514,Excellent DevOps Platform for Frontend Teams,4.5,101,True,,6.37
+2026-01-13T23:40:17.215056,390,1,anthropic/claude-sonnet-4-20250514,Poor Performance for Backend Development Workflows,2.0,99,True,,6.04
+2026-01-13T23:40:20.688410,391,1,anthropic/claude-sonnet-4-20250514,Solid DevOps platform with steep learning curve,3.0,21,False,length,2.84
+2026-01-13T23:40:27.455908,391,2,anthropic/claude-sonnet-4-20250514,Excellent CI/CD for Backend Development,5.0,97,True,,6.06
+2026-01-13T23:40:30.666338,392,1,openai/gpt-4o-mini,Efficient CI/CD with Room for Improvement,3.5,69,True,,2.67
+2026-01-13T23:40:37.353045,393,1,anthropic/claude-sonnet-4-20250514,Decent Project Tracking with Room for Improvement,3.5,98,True,,5.93
+2026-01-13T23:40:48.248569,394,1,anthropic/claude-sonnet-4-20250514,Excellent Project Management and Milestone Trackin,5.0,94,True,,10.03
+2026-01-13T23:40:50.495078,395,1,openai/gpt-4o-mini,Unexpectedly Great Experience!,5.0,7,False,length,1.7
+2026-01-13T23:40:53.772443,395,2,openai/gpt-3.5-turbo,Exceptional Frontend Code Review Experience,5.0,92,True,,2.55
+2026-01-13T23:41:00.645483,396,1,anthropic/claude-sonnet-4-20250514,Excellent CI/CD Platform for DevOps Teams,5.0,92,True,,6.25
+2026-01-13T23:41:12.551650,397,1,anthropic/claude-sonnet-4-20250514,Excellent Project Tracking with Minor Limitations,4.5,101,True,,11.35
+2026-01-13T23:41:16.198140,398,1,openai/gpt-3.5-turbo,Solid API Performance and Database Management,4.5,83,True,,2.95
+2026-01-13T23:41:19.384858,399,1,openai/gpt-3.5-turbo,API Performance Needs Improvement,1.5,75,True,,2.66
+2026-01-13T23:41:21.040865,400,1,openai/gpt-4o-mini,Excellent collaboration tool for developers.,3.5,16,False,length,1.07
+2026-01-13T23:41:23.627350,400,2,openai/gpt-4o-mini,Great API Performance and Database Integration,4.5,76,True,,2.13
+2026-01-13T23:41:26.745217,401,1,openai/gpt-4o-mini,Great Tool for Team Collaboration,4.0,80,True,,2.61
+2026-01-13T23:41:31.289774,402,1,openai/gpt-3.5-turbo,Efficient CI/CD Pipeline Management,4.0,89,True,,3.63
+2026-01-13T23:41:38.102921,403,1,anthropic/claude-sonnet-4-20250514,Essential Platform for Team Development Management,5.0,101,False,bias,5.94
+2026-01-13T23:41:44.092027,403,2,anthropic/claude-sonnet-4-20250514,Solid DevOps Platform with Room for Improvement,3.5,86,True,,5.23
+2026-01-13T23:41:50.598150,404,1,anthropic/claude-sonnet-4-20250514,Excellent Project Tracking with Minor Usability Is,4.5,100,True,,5.71
+2026-01-13T23:42:00.758011,405,1,anthropic/claude-sonnet-4-20250514,GitLab CI/CD Has Potential But Frustrating,2.5,89,True,,9.3
+2026-01-13T23:42:13.511544,406,1,anthropic/claude-sonnet-4-20250514,Excellent CI/CD Platform for DevOps Teams,5.0,80,True,,12.04
+2026-01-13T23:42:16.959723,407,1,openai/gpt-3.5-turbo,Efficient CI/CD Pipeline Management,5.0,81,True,,2.9
+2026-01-13T23:42:20.294420,408,1,openai/gpt-4o-mini,Efficient Workflow Management Tool,4.5,79,True,,2.83
+2026-01-13T23:42:23.338390,409,1,openai/gpt-4o-mini,Struggles with CI/CD Pipeline Usability,1.5,73,True,,2.54
+2026-01-13T23:42:29.621618,410,1,anthropic/claude-sonnet-4-20250514,Disappointing Team Management and Workflow Issues,2.0,80,True,,5.47
+2026-01-13T23:42:32.690434,411,1,openai/gpt-3.5-turbo,Great UI Improvements in Recent Merge,4.0,93,True,,2.36
+2026-01-13T23:42:36.159693,412,1,openai/gpt-4o-mini,Excellent Tool for Project Tracking,5.0,97,True,,2.87
+2026-01-13T23:42:38.854427,413,1,openai/gpt-4o-mini,Great API performance and database integration,4.5,73,True,,2.11
+2026-01-13T23:42:42.000399,414,1,openai/gpt-4o-mini,Exceptional API Performance and Reliability,5.0,81,True,,2.56
+2026-01-13T23:42:44.120728,415,1,openai/gpt-3.5-turbo,Efficient collaboration tool for developers.,4.0,17,False,length,1.52
+2026-01-13T23:42:51.450898,415,2,anthropic/claude-sonnet-4-20250514,Solid CI/CD Platform with Minor Quirks,4.5,90,True,,6.15
+2026-01-13T23:42:55.018266,416,1,openai/gpt-4o-mini,Solid API Performance with Minor Issues,4.5,81,True,,2.82
+2026-01-13T23:43:01.084263,417,1,anthropic/claude-sonnet-4-20250514,Poor API Performance and Database Issues,1.5,79,True,,5.41
+2026-01-13T23:43:05.048410,418,1,openai/gpt-4o-mini,Solid CI/CD but Needs Refinement,3.5,80,True,,2.92
+2026-01-13T23:43:06.792653,419,1,openai/gpt-4o-mini,Efficient collaboration and CI/CD integration,5.0,20,False,length,1.21
+2026-01-13T23:43:14.389626,419,2,anthropic/claude-sonnet-4-20250514,Excellent CI/CD Platform for DevOps,5.0,93,True,,6.65
+2026-01-13T23:43:17.436567,420,1,openai/gpt-3.5-turbo,Exceptional API Performance and Database Managemen,5.0,84,True,,2.41
+2026-01-13T23:43:21.047909,421,1,openai/gpt-4o-mini,Excellent Project Tracking Tool,5.0,89,True,,2.91
+2026-01-13T23:43:27.367867,422,1,anthropic/claude-sonnet-4-20250514,Excellent Team Collaboration and Workflow Manageme,4.5,86,True,,5.55
+2026-01-13T23:43:30.271490,423,1,openai/gpt-4o-mini,API Performance Needs Improvement,2.5,71,True,,2.3
+2026-01-13T23:43:33.002410,424,1,openai/gpt-3.5-turbo,Efficient CI/CD Pipeline Management,4.0,70,True,,2.11
+2026-01-13T23:43:36.090410,425,1,openai/gpt-4o-mini,Efficient CI/CD Pipeline Management,4.5,77,False,bias,2.63
+2026-01-13T23:43:43.198411,425,2,anthropic/claude-sonnet-4-20250514,Decent Team Management with Room for Improvement,3.0,94,True,,6.21
+2026-01-13T23:43:49.952195,426,1,anthropic/claude-sonnet-4-20250514,Decent CI/CD but Performance Issues,3.0,91,True,,6.19
+2026-01-13T23:43:52.969763,427,1,openai/gpt-4o-mini,Good Tool for Team Collaboration,3.5,76,True,,2.47
+2026-01-13T23:43:56.020162,428,1,openai/gpt-4o-mini,Efficient CI/CD with GitLab CI,4.0,75,True,,2.43
+2026-01-13T23:43:58.475450,429,1,openai/gpt-3.5-turbo,Mixed Feelings on API Performance,2.5,64,True,,2.0
+2026-01-13T23:44:01.880370,430,1,openai/gpt-4o-mini,Decent CI/CD Solution with Room for Improvement,3.5,82,True,,2.65
+2026-01-13T23:44:04.716156,431,1,openai/gpt-4o-mini,Effective but needs improvements in management,3.5,79,True,,2.28
+2026-01-13T23:44:07.721981,432,1,openai/gpt-3.5-turbo,Mixed Experience with GitLab for Team Management,2.5,79,True,,2.48
+2026-01-13T23:44:11.119385,433,1,openai/gpt-4o-mini,Exceptional Project Tracking Tool,5.0,86,True,,2.92
+2026-01-13T23:44:18.776332,434,1,anthropic/claude-sonnet-4-20250514,Excellent CI/CD Platform with Minor Quirks,4.5,102,True,,6.74
+2026-01-13T23:44:25.535777,435,1,anthropic/claude-sonnet-4-20250514,Excellent Platform for Team Development Management,5.0,92,True,,6.05
+2026-01-13T23:44:28.539515,436,1,openai/gpt-4o-mini,Excellent Project Tracking Tool,5.0,93,True,,2.52
+2026-01-13T23:44:31.852484,437,1,openai/gpt-4o-mini,Exceptional Frontend Code Review Experience,5.0,76,True,,2.89
+2026-01-13T23:44:35.412994,438,1,openai/gpt-3.5-turbo,Streamlined Workflow for Our Team,5.0,93,True,,3.0
+2026-01-13T23:44:42.016869,439,1,anthropic/claude-sonnet-4-20250514,GitLab CI/CD Shows Promise But Frustrates,2.5,86,True,,6.04
+2026-01-13T23:44:49.904544,440,1,anthropic/claude-sonnet-4-20250514,GitLab CI/CD decent but performance issues,2.5,104,True,,6.95
+2026-01-13T23:44:52.513834,441,1,openai/gpt-4o-mini,Decent Tool for Project Tracking,3.5,79,True,,2.13
+2026-01-13T23:44:59.632459,442,1,anthropic/claude-sonnet-4-20250514,Solid DevOps Platform for Frontend Teams,4.0,104,True,,6.38
+2026-01-13T23:45:02.472935,443,1,openai/gpt-4o-mini,Exceptional API Performance and Reliability,5.0,78,False,bias,2.35
+2026-01-13T23:45:05.513512,443,2,openai/gpt-4o-mini,Decent CI/CD Tool with Limitations,3.0,85,True,,2.36
+2026-01-13T23:45:08.719871,444,1,openai/gpt-4o-mini,API Performance Needs Improvement,2.5,75,True,,2.43
+2026-01-13T23:45:12.005033,445,1,openai/gpt-4o-mini,Solid CI/CD Tool with Room for Improvement,3.0,83,True,,2.23
+2026-01-13T23:45:18.794518,446,1,anthropic/claude-sonnet-4-20250514,Excellent Frontend Development Platform,5.0,86,True,,5.85
+2026-01-13T23:45:26.112163,447,1,anthropic/claude-sonnet-4-20250514,Solid DevOps Platform for Backend Development,4.0,91,True,,6.51
+2026-01-13T23:45:29.428358,448,1,openai/gpt-4o-mini,Exceptional Project Tracking Tool,5.0,90,True,,2.34
+2026-01-13T23:45:36.217747,449,1,anthropic/claude-sonnet-4-20250514,Solid CI/CD but Complex Pipeline Management,3.0,95,True,,5.99
+2026-01-13T23:45:39.470482,450,1,openai/gpt-4o-mini,Disappointing Team Collaboration Tool,1.5,67,True,,2.74
+2026-01-13T23:45:45.536063,451,1,anthropic/claude-sonnet-4-20250514,Excellent Team Management and Workflow Platform,5.0,91,True,,5.42
+2026-01-13T23:45:52.157721,452,1,anthropic/claude-sonnet-4-20250514,Pretty good overall,4.0,34,False,realism,3.66
+2026-01-13T23:45:58.424383,452,2,anthropic/claude-sonnet-4-20250514,Decent CI/CD but Performance Issues,3.0,88,True,,5.43
+2026-01-13T23:46:02.609010,453,1,openai/gpt-4o-mini,Effective Project Tracking Tool,4.0,88,True,,3.57
+2026-01-13T23:46:06.812417,454,1,openai/gpt-4o-mini,Excellent Tool for Project Tracking,5.0,83,True,,3.28
+2026-01-13T23:46:14.179479,455,1,anthropic/claude-sonnet-4-20250514,Excellent CI/CD Platform with Minor Quirks,4.5,104,True,,6.27
+2026-01-13T23:46:19.013576,456,1,openai/gpt-3.5-turbo,Efficient CI/CD with GitLab,4.5,77,True,,3.88
+2026-01-13T23:46:26.059818,457,1,anthropic/claude-sonnet-4-20250514,Solid Project Tracking with Room for Improvement,4.0,93,True,,6.17
+2026-01-13T23:46:29.794879,458,1,openai/gpt-4o-mini,Exceptional Workflow Management Tool,5.0,92,True,,3.17
+2026-01-13T23:46:33.154330,459,1,openai/gpt-3.5-turbo,Great UI Implementation with Minor Issues,4.0,77,True,,2.82
+2026-01-13T23:46:37.426981,460,1,openai/gpt-3.5-turbo,Solid Performance with API Improvements,4.5,80,True,,3.24
+2026-01-13T23:46:40.665728,461,1,openai/gpt-3.5-turbo,Great UI Framework Implementation,4.5,84,True,,2.66
+2026-01-13T23:46:42.444574,462,1,openai/gpt-4o-mini,Efficient collaboration tool for developers,2.5,18,False,length,1.17
+2026-01-13T23:46:48.682708,462,2,anthropic/claude-sonnet-4-20250514,Solid Project Tracking with Room for Improvement,3.5,90,True,,5.42
+2026-01-13T23:46:51.747545,463,1,openai/gpt-3.5-turbo,Excellent Frontend Code Review Experience,5.0,84,True,,2.57
+2026-01-13T23:46:58.624456,464,1,anthropic/claude-sonnet-4-20250514,Excellent Platform for Team Development Management,5.0,102,True,,5.54
+2026-01-13T23:47:01.905225,465,1,openai/gpt-4o-mini,Exceptional Project Tracking Tool,5.0,86,True,,2.65
+2026-01-13T23:47:03.704783,466,1,openai/gpt-4o-mini,A Mixed Experience,4.5,22,False,length,1.25
+2026-01-13T23:47:07.079393,466,2,openai/gpt-3.5-turbo,Great UI Improvements in Recent Update,4.5,90,True,,2.9
+2026-01-13T23:47:10.546090,467,1,openai/gpt-4o-mini,Solid API Performance with Minor Issues,4.0,78,True,,2.88
+2026-01-13T23:47:14.531653,468,1,anthropic/claude-sonnet-4-20250514,Absolutely Flawless - No Room for Improvement What,3.0,36,False,realism,3.48
+2026-01-13T23:47:21.350453,468,2,anthropic/claude-sonnet-4-20250514,Solid but has performance bottlenecks,3.5,88,True,,6.11
+2026-01-13T23:47:25.369914,469,1,openai/gpt-4o-mini,Streamlined Team Workflow Management,5.0,83,False,bias,2.66
+2026-01-13T23:47:31.989339,469,2,anthropic/claude-sonnet-4-20250514,Excellent CI/CD Platform for DevOps Teams,5.0,86,True,,5.85
+2026-01-13T23:47:35.033467,470,1,openai/gpt-4o-mini,Exceptional Frontend Code Review Experience,5.0,78,True,,2.47
+2026-01-13T23:47:41.731256,471,1,anthropic/claude-sonnet-4-20250514,Poor Performance for Backend Development,1.5,85,True,,5.99
+2026-01-13T23:47:45.254545,472,1,openai/gpt-3.5-turbo,Excellent Frontend Code Review Experience,5.0,100,True,,3.05
+2026-01-13T23:47:50.030347,473,1,openai/gpt-4o-mini,Solid CI/CD Tool with Room for Improvement,3.5,79,True,,3.96
+2026-01-13T23:47:53.755577,474,1,openai/gpt-4o-mini,Solid API Performance and Database Management,4.5,74,True,,2.26
+2026-01-13T23:47:57.209244,475,1,openai/gpt-3.5-turbo,Efficient CI/CD with GitLab Pipelines,5.0,87,False,bias,2.64
+2026-01-13T23:48:00.846502,475,2,openai/gpt-3.5-turbo,Exceptional API Performance and Reliability,5.0,71,True,,3.07
+2026-01-13T23:48:07.134625,476,1,anthropic/claude-sonnet-4-20250514,GitLab CI/CD Pipelines Are Frustratingly Unreliabl,1.0,66,False,bias,5.61
+2026-01-13T23:48:10.354853,476,2,openai/gpt-4o-mini,Streamlined Team Workflow Management,4.0,81,True,,2.64
+2026-01-13T23:48:14.282538,477,1,openai/gpt-4o-mini,Solid API Performance and Database Management,4.0,80,True,,2.99
+2026-01-13T23:48:17.414113,478,1,openai/gpt-3.5-turbo,Streamlined CI/CD with GitLab,5.0,95,True,,2.67
+2026-01-13T23:48:24.562156,479,1,anthropic/claude-sonnet-4-20250514,Solid CI/CD Platform with Room for Improvement,3.5,97,True,,6.52
+2026-01-13T23:48:28.827174,480,1,openai/gpt-3.5-turbo,Exceptional Project Tracking Tool,5.0,95,True,,3.66
+2026-01-13T23:48:35.396866,481,1,anthropic/claude-sonnet-4-20250514,Decent for Frontend but UI Lacks Polish,3.0,93,True,,5.76
+2026-01-13T23:48:42.440338,482,1,anthropic/claude-sonnet-4-20250514,Decent DevOps Platform with Performance Issues,3.5,101,True,,6.45
+2026-01-13T23:48:46.044496,483,1,openai/gpt-3.5-turbo,Exceptional API Performance and Reliability,5.0,82,True,,2.48
+2026-01-13T23:48:52.392543,484,1,anthropic/claude-sonnet-4-20250514,Solid DevOps Platform for Frontend Teams,4.0,91,True,,5.62
+2026-01-13T23:48:59.360619,485,1,anthropic/claude-sonnet-4-20250514,Solid CI/CD Platform with Room for Improvement,4.0,96,True,,6.31
+2026-01-13T23:49:02.100265,486,1,openai/gpt-4o-mini,Efficient Project Tracking Tool,4.5,83,True,,2.25
+2026-01-13T23:49:08.567963,487,1,anthropic/claude-sonnet-4-20250514,Poor Performance for Backend Development,1.5,83,True,,5.74
+2026-01-13T23:49:12.118438,488,1,openai/gpt-4o-mini,Efficient CI/CD with GitLab,4.5,90,True,,3.08
+2026-01-13T23:49:15.294988,489,1,openai/gpt-4o-mini,Streamlining Our Team's Workflow Effectively,5.0,87,True,,2.66
+2026-01-13T23:49:18.704598,490,1,openai/gpt-4o-mini,Exceptional CI/CD Pipeline Experience,5.0,92,True,,2.47
+2026-01-13T23:49:21.697103,491,1,openai/gpt-3.5-turbo,Efficient Tool for Team Management,4.0,88,True,,2.46
+2026-01-13T23:49:24.961884,492,1,openai/gpt-3.5-turbo,Efficient CI/CD Pipeline Tool,4.5,88,True,,2.42
+2026-01-13T23:49:28.127918,493,1,openai/gpt-4o-mini,Efficient Tool for Team Collaboration,4.5,82,True,,2.61
+2026-01-13T23:49:34.270499,494,1,anthropic/claude-sonnet-4-20250514,Excellent Platform for Backend Development Teams,5.0,82,True,,5.33
+2026-01-13T23:49:37.965924,495,1,openai/gpt-4o-mini,Great Tool for Project Tracking,4.0,92,True,,3.08
+2026-01-13T23:49:40.633202,496,1,openai/gpt-4o-mini,Inefficient Project Tracking Tool,1.0,70,True,,1.94
+2026-01-13T23:49:43.397789,497,1,openai/gpt-4o-mini,Transformative Tool for Team Management,5.0,95,True,,2.15
+2026-01-13T23:49:46.348048,498,1,openai/gpt-4o-mini,Mixed Experience with API Performance,2.5,76,True,,2.35
+2026-01-13T23:49:52.890409,499,1,anthropic/claude-sonnet-4-20250514,Solid CI/CD Platform with Minor Quirks,4.0,96,True,,5.83
