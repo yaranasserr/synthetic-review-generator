@@ -430,5 +430,5 @@ Failed reviews are automatically regenerated (max 3 attempts).
 
 ## Requirements
 
-Full list in `requirements.txt`
+Full list in [`requirements.txt`](requirements.txt)
 
