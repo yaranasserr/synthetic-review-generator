@@ -126,11 +126,28 @@ http://localhost:4000
 Generate reviews directly from the command line:
 ```bash
 # Generate 50 reviews
-python src/generator.py --count 50
+python src/cli.py generate --count 50
+# Generate reviews and automatically create quality and comparison reports
+python src/cli.py generate \
+  --count 100 \
+  --with-reports \
+  --real-reviews data/raw/real_reviews.json
 
-# Generate 400 reviews
-python src/generator.py --count 400
+# Include charts in reports
+python src/cli.py generate \
+  --count 100 \
+  --with-reports \
+  --real-reviews data/raw/real_reviews.json \
+  --charts
+
+# Generate a comparison report between real and synthetic datasets
+python src/cli.py compare \
+  --real data/raw/real_reviews.json \
+  --synthetic data/synthetic/reviews/reviews_clean_*.json \
+  --charts \
+  --show
 ```
+
 
 #### Output Files
 
